@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>About</title>
+				<author>Torsten Roeder</author>
+				<author>Klaus Rettinghaus</author>
+			</titleStmt>
+			<publicationStmt>
+				<p>unpublished</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>born here</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head type="h1">Über das Projekt</head>
+			<p rend="alignCenter">von Torsten Roeder und Klaus Rettinghaus</p>
+		</front>
+		<body>
+			<div>
+				<div>
+					<head>Einleitung</head>
+					<p>Kulturelles Erbe wird zunehmend vielfältig in digitalen Formen
+						hervorgebracht. Für einen stetig wachsenden Teil dieses
+						Born-Digital-Materials werden besondere Zugangsarten benötigt: Lesegeräte
+						für veraltete Medienspeicher müssen konserviert und bereitgehalten werden,
+						Emulatoren für nicht mehr unterstützte Betriebssysteme entwickelt und Daten
+						in aktuellere Formate übertragen werden – was manchmal nur noch mithilfe von
+						Computerarchäologen gelingt.</p>
+					<p>Der Erhalt digitalen Kulturerbes wird jedoch nicht nur durch deren technische
+						Verfügbarkeit garantiert, sondern bedarf zusätzlich einer kritischen
+						Beleuchtung und wissenschaftlich fundierten Kommentierung. Im Bereich des
+							<q>analogen</q> kulturellen Erbes werden beispielsweise
+						jahrhundertealte, zerfallende Handschriften für die Wissenschaft und für die
+						Öffentlichkeit in textkritischen (digitalen, analogen und hybriden)
+						Editionen aufbereitet und verfügbar gemacht: Dies müsste mit denselben
+						Konsequenzen auch für jedwede Überlieferung relevanten kulturellen Erbes in
+						digitaler Form gelten. Benötigen wir also (digitale) textkritische Editionen
+						von Born-Digital-Texten?</p>
+				</div>
+				<div>
+					<head>Digitale Fachmagazine der 8-Bit-Ära</head>
+					<p>Ein Beispiel, das konservatorische und textkritische Aspekte verbinden kann,
+						ist in digitalen Fachmagazinen überliefert, die in den späten 1980er und
+						frühen 1990er Jahren auf 5¼-Zoll-Disketten (<q>Floppy Disk</q>) publiziert
+						wurden. Ein beachtenswerter Teil dieser sogenannten <q>Diskmags</q> richtete
+						sich an Nutzer des 8-Bit-Rechners Commodore 64 (kurz: C64) und bediente
+						primär eine frühe User- und Gamer-Community. Diskmags enthielten einerseits
+						benutzbare Software (meist Public Domain) und andererseits Besprechungen neu
+						erschienener Software, Rezensionen aktueller Spiele, Hardwaretipps und
+						-bauanleitungen, Editorials, Leserbeiträge und mehr. Schätzungsweise
+						existierten über 30 Diskmags, unter denen im deutschsprachigen Raum die
+						Titel Magic Disk 64 (1987–1993) und Game On (1988–1995) zweifelsohne zu den
+						bekanntesten gehörten.</p>
+					<p>Die Überlieferungssituation der Diskmags ist prekär. In öffentlichen
+						Institutionen sind kaum Bestände erhalten, und viele Exemplare werden nur
+						noch in Privatsammlungen konserviert. Zudem drohen die Datenträger ihre
+						Inhalte zu verlieren, und inwieweit die gedruckten Titelseiten, mit denen
+						die Diskmags ausgeliefert wurden, überhaupt noch greifbar sind, ist
+						unerschlossen. Es ist einer sehr lebendigen 8-Bit-Szene zu verdanken, dass
+						zumindest ein Teil der Binärdaten noch verfügbar ist; deren Erschließung
+						allerdings vorrangig die Interessen der Fangemeinde bediente und bislang
+						höchstens ansatzweise unter wissenschaftlichen Vorzeichen geschah. Bei
+						anderen professionellen Bewahrern ist die Diskmagazin-Thematik offenbar noch
+						nicht weiter ins Bewusstsein gerückt.</p>
+				</div>
+				<div>
+					<head>Computerspielekritik als Forschungsobjekt</head>
+					<p>Diskmags sind unter anderem für die Kulturwissenschaft interessant, da die
+						Spiele-Rezensionen (auch <q>Spieletests</q>) unmittelbar das zeitgenössische
+						Erleben von Computerspielen widerspiegeln. Die damaligen Kriterien
+						hinsichtlich Konzept, Ästhetik (Grafik, Animationen, Sound, Musik) und
+						Spielerfahrung sind aus heutiger Sicht kaum noch nachvollziehbar und können
+						allenfalls von Zeitzeugen mit überzeugender Authentizität geschildert
+						werden: Die C64-Hardware war mit 320x200 Bildpunkten, 16 Farben, 64KiB RAM,
+						einer Rechenleistung von ca. 1MHz und einem dreistimmigen SID-Soundchip
+							<q>state of the art</q>, und bot Programmierern sowie Konsumenten völlig
+						neue Nutzungsmöglichkeiten und Erlebnisräume. Und das sogar mit
+							<q>Haushaltsgeräten</q>: Es war gängig, anstelle eines Monitors den
+						Fernseher als Bildschirm zu verwenden, und die Mono-Tonausgabe über die
+						eigene Soundanlage laufen zu lassen. Über den kreativen Umgang mit der
+						technischen Grundausstattung des Commodore 64 und der Auslotung ihrer
+						Grenzen wurde in der Fachcommunity ausführlich diskutiert. Beispielsweise
+						konnte der Soundchip dazu gebracht werden, Sprachausgaben zu erzeugen (z. B.
+						im Spiel <title>Ghostbusters</title>, vgl. Rettinghaus 2018), und man fand
+						heraus, dass durch eine besondere Behandlung der sogenannten <q>Sprites</q>
+						(vgl. Morrow 2019) bildschirmfüllende Animationen kreiert werden konnten (z.
+						B. im Spiel <title>Katakis</title>, C64 Wiki 2019c, Abschnitt
+							<q>Katakis-Entwicklungs-System</q>). Die in den Diskmags (und
+						Printmagazinen, z.B. 64er) überlieferten Rezensionen sind für Studien im
+						Gebiet der 8-Bit-Ära eine unersetzliche Quelle.</p>
+					<p>Ein Blick in die Magic Disk 64 veranschaulicht deren Potenzial als Quelle
+						kulturgeschichtlicher Untersuchungen. In frühen Ausgaben sind die
+						Spieleberichte sehr kurz und lesen sich mehr wie Teasertexte, weshalb die
+						Bezeichnung <q>Rezension</q> im Sinne einer kritisch-reflexiven Betrachtung
+						noch nicht angemessen ist. Die Texte vermitteln die Thematik und die
+						Atmosphäre eines Spiels und übernehmen vielmehr die Aufgabe, in der
+						8-Bit-Umgebung eine Vorstellungswelt zu stimulieren. In späteren Ausgaben
+						werden die Texte ausführlicher und kritischer, und ein Bewertungsraster
+						tritt hinzu. Trotz dieser Objektivierungstendenz bleibt das subjektive
+						Spielerlebnis – so lassen die bislang gesichteten Texte vermuten – der
+						entscheidende Faktor für die Bewertung. Anhand der Entwicklung der
+						Spieleberichte über einen längeren Zeitraum (und den Vergleich mit weiteren
+						Textkorpora) ließen sich sowohl die Herausbildung einer 8-bit-spezifischen
+						Spieleästhetik als auch eine Genese der Computerspielekritik beobachten und
+						nachvollziehen.</p>
+				</div>
+				<div>
+					<head>Herausforderungen einer digitalen Edition</head>
+					<p>Als Quellenmaterial stellen Diskmags eine Herausforderung dar. Die einerseits
+						historische und andererseits technische Distanz sprechen für eine zeitgemäß
+						aufbereitete (digitale) Präsentation. Ein Versuch, die Texte zugänglich zu
+						machen, wurde bereits durch ein anonymes Underground-Portal unternommen. Die
+						dort wiedergegebenen Texte wurden per OCR aus Originaldaten generiert,
+						welche der Beschreibung nach im Floppy-Image-Format <q>.d64</q> vorlagen.
+						Diese Texte bildeten die Grundlage für eine neudigitalisierte Ausgabe.</p>
+				</div>
+			</div>
+			<div>
+				<head>Literatur</head>
+				<listBibl>
+					<bibl xml:id="b.64er">64er (1984–1996) 64er – Das Magazin für Computerfans, Haar
+						(bei München): Markt+Technik Verlag, 1984–1996. (ZDB: 50387-3)</bibl>
+					<bibl>C64 Wiki (2019a) “Magic Disk 64”, Website: C64 Wiki, 17. März 2019, 21:11
+						Uhr. URL: https://www.c64-wiki.de/wiki/Magic_Disk_64</bibl>
+					<bibl>C64 Wiki (2019b) “Game On”, Website: C64 Wiki, 28. März 2019, 21:28 Uhr.
+						URL: https://www.c64-wiki.de/wiki/Game_On</bibl>
+					<bibl>C64 Wiki (2019c) “Katakis”, Website: C64 Wiki, 29. August 2019, 18:25 Uhr.
+						URL: https://www.c64-wiki.de/wiki/Katakis</bibl>
+					<bibl>C64 Wiki (2019d) “Ghostbusters”, Website: C64 Wiki, 4. September 2019,
+						10:45 Uhr. URL: https://www.c64-wiki.de/wiki/Ghostbusters</bibl>
+					<bibl>Game On (1988–1995) Game On. Das C64-Spielemagazin auf Diskette, Nürnberg:
+						CP Computer Publications, 1988–1995. (ZDB: 1276125-4)</bibl>
+					<bibl>HVSC (1996–2019) The High Voltage SID Collection. Commodore 64 music for
+						the masses, URL: https://www.hvsc.c64.org/</bibl>
+					<bibl>Internet Archive (2013) “64’er Magazine”, Website: archive.org, 9. Januar
+						2013. URL: https://archive.org/details/64er_magazine</bibl>
+					<bibl>Magic Disk 64 (1987–1993) Magic Disk 64. Das C64-Magazin auf Diskette,
+						Nürnberg: CP Computer Publications, 1987–1993. (ZDB: 1275979-X)</bibl>
+					<bibl>Morrow (2019) Steve Morrow: “C64 Sprites Defined”, Website: C64 Brain, 4.
+						Februar 2019. URL:
+						https://www.c64brain.com/graphics/c64-sprites-defined/</bibl>
+					<bibl>National Semiconductor Corporation (1989) Mass Storage Handbook, Section
+						5: Floppy Disk Controller. Santa Clara: National Semiconductor, 1989.
+						(archiviert unter: Internet Archive)</bibl>
+					<bibl>Pepto (2017) Philip “Pepto” Timmermann: “Calculating the color palette of
+						the VIC II”, Februar 2017. URL: https://www.pepto.de/projects/colorvic/;
+						siehe auch die Fassung von 2001: “Commodore VIC-II Color Analysis
+						(Preview)”. URL:
+						http://unusedino.de/ec64/technical/misc/vic656x/colors/</bibl>
+					<bibl>Rettinghaus (2018) Klaus Rettinghaus: “Sidology. Zur Geschichte und
+						Technik des C64-Soundchips”, in: Digitale Spiele, 2018. DOI:
+						10.14361/9783839440025-018</bibl>
+					<bibl>Wikipedia (2018) “Game On”, Website: Wikipedia. Die freie Enzyklopädie, 2.
+						Dezember 2018, 18:35 Uhr. URL: https://de.wikipedia.org/wiki/Game_On</bibl>
+					<bibl>Wikipedia (2019) “Magic Disk 64”, Website: Wikipedia. Die freie
+						Enzyklopädie, 9. Mai 2019, 21:06 Uhr. URL:
+						https://de.wikipedia.org/wiki/Magic_Disk_64</bibl>
+					<bibl>www.c64.at (o. D.) “Diskmag-Archiv”, Website: www.c64.at. Das Verzeichnis
+						von deutschsprachigen Magazinen für den C64, ohne Datum. URL:
+						http://www.c64.at/pages/diskmag-archiv.php</bibl>
+				</listBibl>
+			</div>
+		</body>
+		<back>
+			<p>zuletzt geändert am 22.02.2020</p>
+		</back>
+	</text>
+</TEI>

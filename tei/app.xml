@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Magic Disk 64 – Ausgabe November 1987 – Appendix</title>
+				<author>Torsten Roeder</author>
+			</titleStmt>
+			<publicationStmt>
+				<p>unpublished</p>
+			</publicationStmt>
+			<sourceDesc>
+				<p>TEI file md_87-11.xml</p>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text>
+		<front>
+			<head type="h1">Appendix</head>
+		</front>
+		<body>
+
+			<list type="devices">
+				<head>Geräte</head>
+				<item xml:id="c.c64">
+					<name>Commodore 64</name>
+					<desc>Heimcomputer</desc>
+				</item>
+				<item xml:id="c.c128">
+					<name>Commodore 128</name>
+					<desc>Heimcomputer</desc>
+				</item>
+				<item xml:id="h.lq850">
+					<name>Epson LQ-850</name>
+					<desc>Drucker</desc>
+				</item>
+				<item xml:id="h.p6">
+					<name>NEC P6</name>
+					<desc>Drucker</desc>
+				</item>
+				<item xml:id="h.p7">
+					<name>NEC P7</name>
+					<desc>Drucker</desc>
+				</item>
+				<item xml:id="h.nb2415">
+					<name>Star NB 24-15</name>
+					<desc>Drucker</desc>
+				</item>
+				<item xml:id="h.voicemaster">
+					<name>Voice Master</name>
+				</item>
+			</list>
+
+			<listBibl type="magazines">
+				<head>Computermagazine</head>
+				<bibl xml:id="m.csjnews">
+					<title>CSJ News</title>
+					<note>vgl. <ref target="http://plus4world.powweb.com/groups/CSJ">Plus4 World:
+							CSJ</ref></note>
+				</bibl>
+				<bibl xml:id="m.gameon">
+					<title>Game On!</title>
+					<note>Disk-Magazin</note>
+				</bibl>
+				<bibl xml:id="m.magicdisk64">
+					<title>Magic Disk 64</title>
+					<note>Disk-Magazin</note>
+				</bibl>
+			</listBibl>
+
+			<listOrg>
+				<head>Organisationen</head>
+				<org xml:id="o.ccc">
+					<orgName>CCC</orgName>
+					<orgName>Chaos Computer Club</orgName>
+					<desc>Hackergruppe</desc>
+				</org>
+				<org xml:id="o.cpverlag">
+					<orgName>CP Verlag</orgName>
+					<desc>Diskmag-Verlag</desc>
+				</org>
+				<org xml:id="o.csj">
+					<orgName>CSJ Computersoft</orgName>
+					<orgName>auch: Computersoft Jonigk</orgName>
+					<desc>Software-Emtwickler</desc>
+				</org>
+				<org xml:id="o.dfvlr">
+					<orgName>DFVLR</orgName>
+					<orgName>Deutsche Forschungs- und Versuchsanstalt für Luft- und
+						Raumfahrt</orgName>
+					<orgName>seit 1997: DLR</orgName>
+					<orgName>Deutsches Zentrum für Luft- und Raumfahrt</orgName>
+					<desc>Forschungseinrichtung</desc>
+				</org>
+				<org xml:id="o.embl">
+					<orgName>EMBL</orgName>
+					<orgName>Europäisches Laboratorium für Molekularbiologie</orgName>
+					<desc>Forschungseinrichtung</desc>
+				</org>
+				<org xml:id="o.epson">
+					<orgName>Epson</orgName>
+					<desc>Hardware-Hersteller</desc>
+				</org>
+				<org xml:id="o.epyx">
+					<orgName>Epyx</orgName>
+					<desc>Software-Emtwickler</desc>
+				</org>
+				<org xml:id="o.microprose">
+					<orgName>MicroProse</orgName>
+					<desc>Software-Emtwickler</desc>
+				</org>
+				<org xml:id="o.nasa">
+					<orgName>NASA</orgName>
+					<orgName>National Aeronautics and Space Administration</orgName>
+					<desc>Raumfahrtbehörde</desc>
+				</org>
+				<org xml:id="o.nec">
+					<orgName>NEC</orgName>
+					<desc>Hardware-Hersteller</desc>
+				</org>
+				<org xml:id="o.softwareprojects">
+					<orgName>Software Projects</orgName>
+					<desc>Software-Emtwickler</desc>
+				</org>
+				<org xml:id="o.span">
+					<orgName>SPAN</orgName>
+					<orgName>Space Physics Analysis Network</orgName>
+					<desc>Forschungsnetwerk</desc>
+				</org>
+				<org xml:id="o.star">
+					<orgName>Star</orgName>
+					<desc>Hardware-Hersteller</desc>
+				</org>
+				<org xml:id="o.system3">
+					<orgName>System 3</orgName>
+					<desc>Software-Emtwickler</desc>
+				</org>
+			</listOrg>
+
+			<listPerson>
+				<head>Personen</head>
+				<person xml:id="p.geltenpoth">
+					<persName>Christian Geltenpoth</persName>
+					<note>Chefredakteur der MD64 87/11</note>
+				</person>
+				<person xml:id="p.wiederhold">
+					<persName>A. Wiederhold</persName>
+					<note>Ressort "Software" in MD64 87/11</note>
+				</person>
+				<person xml:id="p.zwanziger">
+					<persName>R. Zwanziger</persName>
+					<note>Ressort "Hardware" in MD64 87/11</note>
+				</person>
+			</listPerson>
+
+			<list type="software">
+				<head>Software</head>
+				<item xml:id="g.californiagames">
+					<title>California Games</title>
+					<orgName ref="#o_epyx">Epyx</orgName>
+					<desc>Computerspiel</desc>
+					<idno>https://www.wikidata.org/wiki/Q88855</idno>
+					<bibl>https://www.c64-wiki.de/wiki/California_Games</bibl>
+				</item>
+				<item xml:id="g.defenderofthecrown">
+					<title>Defender of the Crown</title>
+					<desc>Computerspiel</desc>
+					<idno>https://www.wikidata.org/wiki/Q1182594</idno>
+					<bibl>https://www.c64-wiki.de/wiki/Defender_of_the_Crown</bibl>
+				</item>
+				<item xml:id="s.ec64">
+					<title>EC-64</title>
+					<desc>Anwendung</desc>
+				</item>
+				<item xml:id="g.explodingfist">
+					<title>(The Way of the) Exploding Fist</title>
+					<orgName ref="#o_system3">System 3</orgName>
+					<desc>Computerspiel</desc>
+					<idno>https://www.wikidata.org/wiki/Q1324596</idno>
+					<bibl>https://www.c64-wiki.de/wiki/The_Way_of_the_Exploding_Fist</bibl>
+				</item>
+				<item xml:id="g.fortapocalypse">
+					<title>Fort Apocalypse</title>
+					<desc>Computerspiel</desc>
+					<idno>https://www.wikidata.org/wiki/Q1438437</idno>
+					<bibl>https://www.c64-wiki.de/wiki/Fort_Apocalypse</bibl>
+				</item>
+				<item xml:id="g.internationalkarate">
+					<title>International Karate</title>
+					<orgName ref="#o_system3">System 3</orgName>
+					<desc>Computerspiel</desc>
+					<idno>https://www.wikidata.org/wiki/Q1328570</idno>
+					<bibl>https://www.c64-wiki.de/wiki/International_Karate</bibl>
+				</item>
+				<item xml:id="u.interruptmodule">
+					<title>Interrupt Module</title>
+					<desc>Systemsoftware</desc>
+				</item>
+				<item xml:id="g.pirates">
+					<title>Pirates!</title>
+					<orgName ref="#o_microprose">MicroProse Software</orgName>
+					<desc>Computerspiel</desc>
+					<idno>https://www.wikidata.org/wiki/Q2096756</idno>
+					<bibl>https://www.c64-wiki.de/wiki/Pirates!</bibl>
+				</item>
+				<item xml:id="g.runaway">
+					<title>Runaway</title>
+					<desc>Computerspiel</desc>
+				</item>
+				<item xml:id="g.starpaws">
+					<title>Star Paws</title>
+					<orgName ref="#o_softwareprojects">Software Projects</orgName>
+					<desc>Computerspiel</desc>
+					<idno>https://www.wikidata.org/wiki/Q3968310</idno>
+				</item>
+				<item xml:id="u.strichcursor">
+					<title>Strichcursor</title>
+					<desc>Systemsoftware</desc>
+				</item>
+				<item xml:id="g.summergames">
+					<title>Summer Games</title>
+					<orgName ref="#o_epyx">Epyx</orgName>
+					<desc>Computerspiel</desc>
+					<idno>https://www.wikidata.org/wiki/Q454924</idno>
+					<bibl>https://www.c64-wiki.de/wiki/Summer_Games</bibl>
+				</item>
+				<item xml:id="g.thelastninja">
+					<title>The Last Ninja</title>
+					<orgName ref="#o_system3">System 3</orgName>
+					<desc>Computerspiel</desc>
+					<idno>https://www.wikidata.org/wiki/Q2117391</idno>
+					<bibl>https://www.c64-wiki.de/wiki/The_Last_Ninja</bibl>
+				</item>
+				<item xml:id="g.thepawn">
+					<title>The Pawn</title>
+					<desc>Computerspiel</desc>
+					<idno>https://www.wikidata.org/wiki/Q1721167</idno>
+					<bibl>https://www.c64-wiki.de/wiki/The_Pawn</bibl>
+				</item>
+				<item xml:id="s.vizawrite">
+					<title>Vizawrite</title>
+					<desc>Anwendung</desc>
+				</item>
+				<item xml:id="g.wintergames">
+					<title>Winter Games</title>
+					<orgName ref="#o_epyx">Epyx</orgName>
+					<desc>Computerspiel</desc>
+					<idno>https://www.wikidata.org/wiki/Q1790249</idno>
+					<bibl>https://www.c64-wiki.de/wiki/Winter_Games</bibl>
+				</item>
+				<item xml:id="g.worldgames">
+					<title>World Games</title>
+					<orgName ref="#o_epyx">Epyx</orgName>
+					<desc>Computerspiel</desc>
+					<idno>https://www.wikidata.org/wiki/Q928439</idno>
+					<bibl>https://www.c64-wiki.de/wiki/World_Games</bibl>
+				</item>
+				<item xml:id="u.zehnerblock">
+					<title>Zehnerblock</title>
+					<desc>Systemsoftware</desc>
+				</item>
+			</list>
+
+		</body>
+	</text>
+</TEI>

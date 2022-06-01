@@ -1,0 +1,75 @@
+/* main.css */
+
+/* HTML root: background */
+html { margin:0; padding:0; background-color:#777777; font-family:"Times New Roman", Times, serif; font-size:20px; }
+
+/* HTML body: invisible container */
+body { width:24rem; margin:1rem auto; padding:0; }
+
+/* HTML main sections */
+nav,header,article,footer	{ width:100%; margin:0.5rem 0; padding:0.5rem 3rem; background-color:white; }
+nav,header					{ text-align:center; }
+nav							{ background-color:#333333;/*c64darkgrey*/ color:white; font-family:Tahoma, Geneva, sans-serif; }
+
+/* HTML text divisions */
+div							{ position:relative; margin:1rem 0; padding-bottom:0.5rem; }
+div.div1:not(:last-child)	{ border-bottom:0.1rem solid black; }
+div.div2:not(:last-child)	{ border-bottom:0.1rem dotted #bbbbbb;/*c64lightgrey*/ }
+
+/* HTML text blocks */
+h1,h2,h3,h4,h5,h6	{ font-family:"Courier New", Courier, monospace; padding:1rem 0; margin:0; }
+p					{ text-align:justify; margin:0.5rem 0; position:relative; }
+figure				{ text-align:center; padding:0; margin:0.5rem 0; }
+figure img			{ width:100%; }
+figure figcaption	{ display:none; }
+
+/* HTML lists */
+ul		{ list-style-type:none; padding:0; margin:0.5rem 0; }
+ul li	{ margin:0.5rem 0; text-align:left; }
+
+/* HTML hyperlinks */
+a				{ text-decoration:none; color:#0000aa;/*c64blue*/ }
+nav a, footer a	{ color:#0088ff;/*c64lightblue*/ }
+span.note a		{ color:#eeee77;/*c64yellow*/ }
+
+/* block rendition attributes */
+.alignCenter	{ text-align:center; }
+.alignLeft		{ text-align:left; }
+.preformatted	{ font-family:"Courier New", Courier, monospace; line-height:1rem; font-weight:normal; font-style:normal; margin:1rem auto; white-space:pre; }
+.indent2rem		{ text-indent:2rem; }
+.hanging2rem	{ text-indent:-2rem; padding-left:2rem; }
+.preserveLines	{ /*nothing*/ }
+.twoColums		{ column-count:2; }
+
+/* inline rendition attributes */
+.allcaps		{ /*nothing*/ }
+.code			{ font-family:"Courier New", Courier, monospace; }
+.block			{ display:block; margin:0.5rem 0; }
+.inverted		{ background-color:black; color:white; padding-left:2px; padding-right:2px; }
+.spaced			{ white-space:pre; }
+.underlined		{ text-decoration:underline; }
+
+/* topography */
+.leftMargin		{ position:absolute; left:-2rem; }
+.rightMargin	{ position:absolute; right:-2rem; }
+.editorialMark	{ color:#bbbbbb; text-indent:0; line-height:1rem; vertical-align:middle; }
+.editorialText	{ color:#777777; text-indent:0; font-style:italic; }
+
+/* semantics */
+a[data-tei='name']		{ color:#dd8855;/*c64orange*/ }
+a[data-tei='orgName']	{ color:#00cc55;/*c64green*/ }
+a[data-tei='persName']	{ color:#880000;/*c64red*/ }
+a[data-tei='title']		{ color:#cc44cc;/*c64violet*/ }
+
+/* terms and notes */
+span.term { position:relative; text-decoration:underline; text-decoration-style:dotted; text-decoration-color:#777777; }
+
+/* popup items */
+span.note,
+figcaption { font-family:Tahoma, Geneva, sans-serif; width:21rem; position:absolute; background-color:#777777; color:white; box-shadow:10px 10px #333333; padding:0.5rem; display:none; text-align:left; z-index:1; text-indent:0; }
+
+span.term:hover span.note,
+span.term:focus span.note,
+span.note:hover, span.note:focus,
+figure:hover figcaption,
+figure:focus figcaption { display:block; margin:0 0 0 1rem; }

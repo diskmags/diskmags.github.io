@@ -1,0 +1,2025 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+	<teiHeader>
+		<fileDesc>
+			<titleStmt>
+				<title>Magic Disk 64 – November 1987</title>
+				<editor>C. Geltenpoth</editor>
+				<editor>R. Zwanziger</editor>
+				<editor>A. Wiederhold</editor>
+			</titleStmt>
+			<publicationStmt>
+				<publisher>CP Verlag</publisher>
+				<address>
+					<street>Innere Cramer-Klett-Str. 6</street>
+					<postCode>8500</postCode>
+					<settlement>Nürnberg</settlement>
+					<country>West Germany</country>
+				</address>
+				<availability>
+					<licence>urheberrechtlich geschützt, alle Rechte vorbehalten</licence>
+				</availability>
+			</publicationStmt>
+			<sourceDesc>
+				<bibl>
+					<title>Magic Disk 64 – November 1987</title>
+					<series>Magic Disk 64</series>
+					<publisher>CP Verlag</publisher>
+					<pubPlace>Nürnberg</pubPlace>
+					<date>November 1987</date>
+				</bibl>
+			</sourceDesc>
+		</fileDesc>
+		<revisionDesc>
+			<change when="2008">OCR by untergrund.net</change>
+			<change when="2020">TEI encoding by TR</change>
+		</revisionDesc>
+	</teiHeader>
+	<text xml:space="preserve">
+<front>
+<div xml:id="div00">
+<head rend="alignCenter" type="h1">Magic Disk 64</head>
+<ab rend="preformatted">Ausgabe November 1987</ab>
+<ab rend="preformatted twoColums">
+<cb n="a"/>
+<lb/><ref target="#div01_hallo">Hallo</ref>
+<lb/><ref target="#div02_hardware">Hardware</ref>
+<lb/><ref target="#div03_software">Software</ref>
+<lb/><ref target="#div04_bastelware">Bastelware</ref>
+<lb/><ref target="#div05_utilities">Utilities</ref>
+<cb n="b"/>
+<lb/><ref target="#div06_games">Games</ref>
+<lb/><ref target="#div07_news">News</ref>
+<lb/><ref target="#div08_intern">Intern</ref>
+<lb/><ref target="#div09_tipsundtricks">Tips &amp; Tricks</ref>
+<lb/><ref target="#div10_theend">The End</ref>
+</ab>
+</div>
+</front>
+<body>
+<div xml:id="div01_hallo" xml:space="preserve">
+<pb n="01" xml:id="pb0101"/>
+<figure>
+<graphic url="MD8712-HALLO-1.1.koala.png"/>
+<desc>Abbildung: Person mit einem großen Karton voller Floppy-Disks</desc>
+</figure>
+<pb n="02" xml:id="pb0102"/>
+<head rend="alignCenter" type="h2" xml:id="head0102">
+<lb n="01"/>              <hi rend="allcaps spaced">H A L L O !</hi>               
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Ein  neuer  Stern  ist  am  Medienhimmel
+<lb n="05"/>aufgegangen!  Ab  jetzt  gibt  es  jeden
+<lb n="06"/>Monat Spiele,  Utilities,  News,  Unter<pc type="br">-</pc>
+<lb break="no" n="07"/>haltung und vieles mehr für nur DM 9.80!</p>
+<p rend="indent2rem">
+<lb n="08"/>  Damit wollen wir auch denen  die  Mühe
+<lb n="09"/>des <term target="#note0102_eintippen">Eintippens</term>  abnehmen,  für  die  bis
+<lb n="10"/>jetzt Programmdisketten einfach zu teuer
+<lb n="11"/>waren. Aber wir möchten hier nicht lange
+<lb n="12"/>von unserem Magazin schwärmen, denn  das
+<lb n="13"/>wollen wir Ihnen überlassen.            </p>
+<note resp="TR" xml:id="note0102_eintippen">
+	In zeitgenössischen Printmagazinen wurde – manchmal über viele Seiten – oftmals Programmcode abgedruckt.
+	Für die Verwendung auf dem eigenen Computer musste der Code zunächst vollständig abgetippt werden.</note>
+<p rend="indent2rem">
+<lb n="14"/>  Vielleicht  werden  wir   mit   dieser
+<lb n="15"/>ersten  Ausgabe  nicht  jedermanns   Ge<pc type="br">-</pc>
+<lb break="no" n="16"/>schmack genau  treffen.  Wir  sind  aber
+<lb n="17"/>immer für  konstruktive  Vorschläge  und
+<lb n="18"/>Verbesserungen zu haben.  Schreiben  Sie
+<lb n="19"/>uns  doch  einfach!   Unsere   Anschrift
+<pb n="03" xml:id="pb0103"/>
+<fw sameAs="#head0102"/>
+<lb n="03"/>finden Sie unter der Rubrik <q>'<ref target="#div08_intern">Intern</ref>'</q>.   </p>
+<p rend="indent2rem">
+<lb n="04"/>  Wir, das Magic team,  würden  uns  auf
+<lb n="05"/>jeden  Fall  freuen,  wenn   Sie   unser
+<lb n="06"/>Magazin auch beim  nächsten  Mal  wieder
+<lb n="07"/><q>'magisch'</q> anzieht!                      </p>
+<space dim="vertical" quantity="3"/>
+<p rend="preserveLines">
+<lb n="11"/>Bis dann,                               
+<space dim="vertical" quantity="2"/>
+<lb n="14"/><persName ref="#p.geltenpoth" type="p">Christian Geltenpoth</persName>, Chefredakteur     </p>
+</div>
+<div xml:id="div02_hardware" xml:space="preserve">
+<div xml:id="div0200_hardware">
+<pb n="01" xml:id="pb0201"/>
+<head rend="alignCenter" type="h2" xml:id="head0201">
+<lb n="01"/>            <hi rend="allcaps spaced">H A R D W A R E</hi>             
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>In der Rubrik <q>'Hardware'</q> decken wir auf,
+<lb n="05"/>was sich  so  alles  auf  dem  Hardware<pc type="br">-</pc>
+<lb break="no" n="06"/>sektor tut. Natürlich stellen  wir  auch
+<lb n="07"/>neue Entwicklungen vor,  aber  ebenfalls
+<lb n="08"/>solche Produkte, die sich schon lange im
+<lb n="09"/>Einsatz mit dem <name ref="#c.c64">C64</name> bewährt haben.      </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="11"/><hi rend="underlined">Diesen Monat geht es um:</hi>                
+<lb n="12"/><span ana="#u">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span>                </p>
+<space dim="vertical" quantity="1"/>
+<ab rend="preformatted" type="toc">
+<lb n="14"/><ref target="#div0201_telefonbuch">BTX + C64 und das ETB ......... Seite  2</ref>
+<space dim="vertical" quantity="1"/>
+<lb n="16"/><ref target="#div0202_24nadeldrucker">24-Nadel Drucker .............. Seite  4</ref>
+<space dim="vertical" quantity="1"/>
+<lb n="18"/><ref target="#div0203_voicemaster">Voice Master .................. Seite 12</ref></ab>
+</div>
+<div xml:id="div0201_telefonbuch" xml:space="preserve">
+<pb n="02" xml:id="pb0202"/>
+<head rend="alignCenter" xml:id="head0202">
+<lb n="01"/>     Das elektronische Telefonbuch      
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/><term target="#note0202_btx">BTX</term> gibt es ja schon lange. Seit ein bis
+<lb n="05"/>zwei  Jahren  gibt  es  auch  schon  das
+<lb n="06"/>BTX-Modul für den <name ref="#c.c64">C64</name>. Was es  aber  bis
+<lb n="07"/>jetzt noch nicht gab ist ein umfassendes
+<lb n="08"/>elektronisches Telefonbuch. Von  nun  an
+<lb n="09"/>kann jeder BTX-Besitzer auf die Telefon<pc type="br">-</pc>
+<lb break="no" n="10"/>nummern von 27  Millionen  Bundesbürgern
+<lb n="11"/>zugreifen. Dabei muß er  meist  nur  den
+<lb n="12"/>Namen und den Wohnort  der  betreffenden
+<lb n="13"/>Person eintippen und erhält (fast immer)
+<lb n="14"/>innerhalb von 3  Sekunden  die  Telefon<pc type="nbr">-</pc>
+<lb break="yes" n="15"/>und die Telefaxnummer (falls vorhanden).
+<lb n="16"/>Dabei können 1200 Benutzer  gleichzeitig
+<lb n="17"/>die gewünschten Rufnummern abrufen.     </p>
+<p>
+<lb n="18"/>Die Kosten dieses Projekts  betrugen  28
+<lb n="19"/>Millionen Mark.                         </p>
+<note resp="TR" xml:id="note0202_btx">
+	BTX: Bildschirmtext, ein interaktiver Onlinedienst, der 1982 in Österreich und 1983 in Westdeutschland eingeführt wurde.
+	Basierte technisch auf Telefon und Fernsehen. Die ursprünglich für 1986 anvisierte Nutzerzahl von einer Million wurde erst 1995 erreicht.
+	2001 wurde BTX weitgehend und 2007 vollständig eingestellt.
+	Quelle: <ref target="https://de.wikipedia.org/wiki/Bildschirmtext">Wikipedia (de)</ref>.</note>
+<pb n="03" xml:id="pb0203"/>
+<fw sameAs="#head0202"/>
+<p>
+<lb n="03"/>Das  elektronische<surplus>n</surplus>  Telefonbuch  könnte
+<lb n="04"/>nun endlich das herkömmliche, meist 1000
+<lb n="05"/>Seite dicke,  Telefonbuch  ablösen.  Das
+<lb n="06"/>würde  eine   erhebliche   Kostensenkung
+<lb n="07"/>bewirken.  Immerhin  werden  durch   die
+<lb n="08"/>Aktualisierung der Telefonbücher  mehre<pc type="br">-</pc>
+<lb break="no" n="09"/>re  tausend  Tonnen  Papier   pro   Jahr
+<lb n="10"/>verbraucht.  In  Frankreich  gehört  das
+<lb n="11"/>Telefonbuch auf Papier schon  lange  der
+<lb n="12"/>Vergangenheit an.  Jeder  Teilnehmer  am
+<lb n="13"/>Postnetz erhielt kostenlos ein <term target="#note0203_minitel">BTX-Gerät</term>
+<lb n="14"/>zur Verfügung gestellt.                 </p>
+<note resp="TR" xml:id="note0203_minitel">
+	In Frankreich wurde bereits 1980 der Onlinedienst „Minitel“ eingeführt.
+	Im Vergleich deutlich erfolgreicher als BTX, wurde Minitel erst 2012 eingestellt.
+	Quelle: <ref target="https://en.wikipedia.org/wiki/Minitel">Wikipedia (en)</ref>.</note>
+</div>
+<div xml:id="div0202_24nadeldrucker" xml:space="preserve">
+<pb n="04" xml:id="pb0204"/>
+<head rend="alignCenter" xml:id="head0204">
+<lb n="01"/>           24-Nadel Drucker             
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<p>
+<lb n="03"/>In  der  Rubrik  <q>'<ref target="#div07_news">News</ref>'</q>  finden  Sie  zu
+<lb n="04"/>diesem Thema ein paar hübsche  Grafiken,
+<lb n="05"/>die  alle  von   24-Nadel   Farbdruckern
+<lb n="06"/>stammen. Nun wollen wir der  Sache  aber
+<lb n="07"/>auf den Grund gehen.                    </p>
+<p>
+<lb n="08"/>Deshalb haben wir die  24-Nadel  Drucker
+<lb n="09"/>von <orgName ref="#o.epson">Epson</orgName>, <orgName ref="#o.nec">NEC</orgName> und <orgName ref="#o.star">Star</orgName>  auf  Schnellig<pc type="br">-</pc>
+<lb break="no" n="10"/>keit,  Schriftbild   und   Farbfähigkeit
+<lb n="11"/>überprüft. Außerdem haben wir  uns  nach
+<lb n="12"/>den empfohlenen Preisen  der  Hersteller
+<lb n="13"/>erkundigt.                              </p>
+<p>
+<lb n="14"/>Los geht's  mit  dem  billigsten  Epson<pc type="nbr">-</pc>
+<lb break="no" n="15"/>Drucker der LQ-Serie und  zwar  mit  dem
+<lb n="16"/><name ref="#h.lq850">LQ-850</name>. Dieser nette Drucker ist  immer<pc type="br">-</pc>
+<lb break="no" n="17"/>hin schon für 1898 Märker zu haben,  ein
+<lb n="18"/>Farbband kostet DM 28.  Das  Schriftbild
+<lb n="19"/>ist in L(etter) Q(uality) kaum  von  dem
+<pb n="05" xml:id="pb0205"/>
+<fw sameAs="#head0204"/>
+<lb n="03"/>eines Typenraddruckers zu unterscheiden.
+<lb n="04"/>Um den <name ref="#h.lq850">LQ-850</name> an den <name ref="#c.c64">C64</name>  anzuschliessen
+<lb n="05"/>braucht   man   dann   nur   noch    das
+<lb n="06"/>Software-Interface  <title ref="#s.ec64">EC-64</title>  (DM   129.–).
+<lb n="07"/>Oder man  verwendet  ein  ganz  normales
+<lb n="08"/><term target="#note0205_centronics">Centronics-Kabel</term>.  Allerdings  muß   man
+<lb n="09"/>darauf  achten,  ob  beim  Druckprogramm
+<lb n="10"/>auch ein Epson-Mode vorgesehen ist (beim
+<lb n="11"/>Programm  <q>'<title ref="#s.vizawrite">Vizawrite</title>'</q>  gibt   man   z.B.
+<lb n="12"/>einfach <q>'E'</q> als  Druckeranpassung  ein).
+<lb n="13"/>Die Druckgeschwindigkeit liegt bei  etwa
+<lb n="14"/>200 Z./Sek. im Elite-Modus.             </p>
+<note resp="TR" xml:id="note0205_centronics">
+	Ein Kabel zur bidirektionalen Datenübertragung zwischen Computern und Peripheriegeräten wie z.B. Druckern.
+	Die Centronics-Schnittstelle galt lange als de-facto-Standard und wurde erst 1994 vom offiziellen IEEE-1284-Standard abgelöst.
+	Quelle: <ref target="https://en.wikipedia.org/wiki/IEEE_1284">Wikipedia (en)</ref>.</note>
+<space dim="vertical" quantity="4"/>
+<fw>
+<lb n="19"/> Seite 6: Der <name ref="#h.lq850">LQ-850</name></fw>
+<pb n="06" xml:id="pb0206"/>
+<figure>
+<graphic url="MD8712-HARDWARE-2.6.koala.png"/>
+<desc resp="TR">Abbildung: Drucker Epson LQ-850</desc>
+</figure>
+<pb n="07" xml:id="pb0207"/>
+<p>
+<lb n="03"/>Als nächstes geht's weiter  mit  dem  <name ref="#h.p6">P6</name>
+<lb n="04"/>bzw. <name ref="#h.p7">P7</name> von <orgName ref="#o.nec">NEC</orgName>. Auch bei diesem 24-Nad<pc type="br">-</pc>
+<lb break="no" n="05"/>ler kann man nur schwer das  Schriftbild
+<lb n="06"/>als das eines Nadeldruckers identifizie<pc type="br">-</pc>
+<lb break="no" n="07"/>ren. Der Druckkopf rast  im  Elite-Modus
+<lb n="08"/>mit etwa 216 Z./Sek.  über  das  Papier.
+<lb n="09"/>Farbe kann der P6/P7 natürlich auch. Und
+<lb n="10"/>wie! Mit einer Auflösungsdichte von  360
+<lb n="11"/>Punkten/Zoll gehört der P6/P7  zu  einem
+<lb n="12"/>der  leistungsfähigsten  24-Nadel  Druk<pc type="br">-</pc>
+<lb break="no" n="13"/>kern. Die Pinwriter  P6  und  P7  unter<pc type="br">-</pc>
+<lb break="no" n="14"/>scheiden sich  übrigens  nur  durch  die
+<lb n="15"/>Schreibbreite (P6: 80 Zeichen,  P7:  136
+<lb n="16"/>Zeichen/Zeile). Der empfohlene Verkaufs<pc type="br">-</pc>
+<lb break="no" n="17"/>preis liegt bei diesem Druckern bei  ca.
+<lb n="18"/>DM 1300 (P6) bxw. DM 1500 (P7).         </p>
+<fw>
+<lb n="19"/>     Seite 8: NEC P7                    </fw>
+<pb n="08" xml:id="pb0208"/>
+<figure>
+<graphic url="MD8712-HARDWARE-2.8.koala.png"/>
+<desc resp="TR">Abbildung: Drucker NEC P7</desc>
+</figure>
+<pb n="09" xml:id="pb0209"/>
+<p>
+<fw sameAs="#head0204"/>
+<lb n="03"/>Mit den beiden anderen Druckern kann der
+<lb n="04"/><name ref="#h.nb2415">NB 24-15</name> von <orgName ref="#o.star">Star</orgName> natürlich auch mithal<pc type="br">-</pc>
+<lb break="no" n="05"/>ten,  vor  allem  was  die   Auflösungs<pc type="br">-</pc>
+<lb break="no" n="06"/>dichte  und   die   Druckgeschwindigkeit
+<lb n="07"/>betrifft. Auch er  schafft  216  Z./Sek.
+<lb n="08"/>und im LQ-Modus noch 72 Z./Sek.  Der  NB
+<lb n="09"/>24 ist beim Kauf mit einem Druckspeicher
+<lb n="10"/>von 5 kByte ausgerüstet, den man bis  zu
+<lb n="11"/>85 kByte aufrüsten  kann!  Das  Farbband
+<lb n="12"/>für den NB 24-15 kostet ca. DM 20.      </p>
+<p>
+<lb n="13"/>Die Schreibbreite  liegt  hier  bei  136
+<lb n="14"/>Zeichen, wobei man in  17  verschiedenen
+<lb n="15"/>Schriftarten  drucken   kann.   Außerdem
+<lb n="16"/>lassen sich noch sog. <q>'<term target="#note0209_fontcartridge">Font  Cartridges</term>'</q>
+<lb n="17"/>in den Drucker  laden,  womit  man  dann
+<lb n="18"/>zusätzlich   noch   die    ausgefallenen
+<lb n="19"/>Schriftarten Courier, Orator und  Letter
+<pb n="10" xml:id="pb0210"/>
+<fw sameAs="#head0204"/>
+<lb n="03"/>Gothic zur Verfügung hat.               </p>
+<p>
+<lb n="04"/>Der Verkaufspreis liegt  beim  NB  24-15
+<lb n="05"/>bei ca. DM 2600.                        </p>
+<note resp="TR" xml:id="note0209_fontcartridge">
+	Einsteckbare ROM-Erweiterungen für Drucker, die zusätzliche Schriftarten enthalten.</note>
+<space dim="vertical" quantity="2"/>
+<p>
+<lb n="08"/>Insgesamt gesehen  kann  man  in  puncto
+<lb n="09"/>Auflösung  die  vorgestellten   24-Nadel
+<lb n="10"/>Drucker kaum voneinander  unterscheiden.
+<lb n="11"/>Deshalb wird es wahrscheinlich so  sein,
+<lb n="12"/>daß  beim  Kauf  vor  allem  der   Preis
+<lb n="13"/>entscheidet. Egal  jedoch,  für  welchen
+<lb n="14"/>24-Nadel-Printer man  sich  entscheidet,
+<lb n="15"/>eines ist sicher: Man wird morgen  nicht
+<lb n="16"/>schon wieder die Technik von  vorgestern
+<lb n="17"/>besitzen!                               </p>
+</div>
+<div xml:id="div0203_voicemaster" xml:space="preserve">
+<pb n="11" xml:id="pb0211"/>
+<head rend="alignCenter" xml:id="head0211">
+<lb n="01"/>             Voice Master               
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<lb n="03"/>
+<p>
+<lb n="04"/><name ref="#h.voicemaster">Voice Master</name> – die meisten haben sicher<pc type="br">-</pc>
+<lb break="no" n="05"/>lich schon von diesem sagenumwobenen Ge<pc type="br">-</pc>
+<lb break="no" n="06"/>rät für den C64  gehört.  Für  die,  die
+<lb n="07"/>diesen Namen zum ersten mal  lesen,  sei
+<lb n="08"/>gesagt, daß es  sich  hierbei  um  einen
+<lb n="09"/>Sprachdigitalisierer handelt.  Geliefert
+<lb n="10"/>wird er mit einem Kopfhörermikrophon und
+<lb n="11"/>einer System-Diskette.                  </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="13"/>Zur Funktionsweise des Voice Masters:   </p>
+<p>
+<lb n="14"/>Auf der Diskette befindet sich ein modi<pc type="br">-</pc>
+<lb break="no" n="15"/>fiziertes Basic, mit dessen Hilfe  Spra<pc type="br">-</pc>
+<lb break="no" n="16"/>che  aufgenommen,  ausgegeben  und  ver<pc type="br">-</pc>
+<lb break="no" n="17"/>glichen werden  kann.  Die  zuletzt  ge<pc type="br">-</pc>
+<lb break="no" n="18"/>nannte Möglichkeit wird als  <q>'Voice  Re<pc type="br">-</pc>
+<lb break="no" n="19"/>cognition'</q>  bezeichnet.  Diese   Methode
+<pb n="12" xml:id="pb0212"/>
+<fw sameAs="#head0211"/>
+<lb n="03"/>wird anhand von Beispielprogrammen  vor<pc type="br">-</pc>
+<lb break="no" n="04"/>geführt. So befindet sich auf  der  Dis<pc type="br">-</pc>
+<lb break="no" n="05"/>kette z.B. ein Rechner, den man  alleine
+<lb n="06"/>durch seine  Stimme  steuern  kann.  Man
+<lb n="07"/>kann wirklich  die  tollsten  Dinge  mit
+<lb n="08"/>Voice Master anstellen, da alle  gespei<pc type="br">-</pc>
+<lb break="no" n="09"/>cherten  Worte  auch  ohne   das   Gerät
+<lb n="10"/>verwendbar sind.                        </p>
+</div>
+</div>
+<div xml:id="div03_software" xml:space="preserve">
+<div xml:id="div0300_software">
+<pb n="01" xml:id="pb0301"/>
+<head rend="alignCenter" type="h2">
+<lb n="01"/>            <hi rend="allcaps spaced">S O F T W A R E</hi>             
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Es hat sich wieder einiges getan auf dem
+<lb n="05"/>Software-Markt!  Eine  Menge  wahnsinnig
+<lb n="06"/>guter Spiele sind in den letzten Monaten
+<lb n="07"/>herausgekommen.                         </p>
+<p>
+<lb n="08"/>An dieser Stelle werden wir Ihnen  jeden
+<lb n="09"/>Monat die brandneuesten  Games  für  den
+<lb n="10"/><name ref="#c.c64">C64</name> vorstellen  –  und  wir  werden  die
+<lb n="11"/>Spiele nicht  nur  beschreiben,  sondern
+<lb n="12"/>natürlich auch Grafikbilder zeigen.     </p>
+<p>
+<lb n="13"/>Diesen Monat stellen wir Ihnen vor:     </p>
+<space dim="vertical" quantity="1"/>
+<ab rend="preformatted" type="toc">
+<lb n="15"/><ref target="#div0301_starpaws">Star Paws ..................... Seite  2</ref>
+<lb n="16"/><ref target="#div0302_thelastninja">The Last Ninja ................ Seite  3</ref>
+<lb n="17"/><ref target="#div0303_californiagames">California Games .............. Seite  8</ref>
+<lb n="18"/><ref target="#div0304_pirates">Pirates! ...................... Seite 11</ref>
+<lb n="19"/><ref target="#div0305_thepawn">The Pawn ...................... Seite 15</ref>
+<supplied>
+<lb n="s1"/><ref target="#div0306_csj">CSJ (Anzeige) ................. Seite 20</ref>
+<lb n="s2"/><ref target="#div0307_topten">Top Ten ....................... Seite 22</ref></supplied></ab>
+</div>
+<div xml:id="div0301_starpaws">
+<pb n="02" xml:id="pb0302"/>
+<head rend="alignCenter">
+<lb n="01"/>               Star Paws                
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Mit dem  Spiel  <q>'<title ref="#g.starpaws">Star  Paws</title>'</q>  haben  die
+<lb n="05"/>Programmierer  von  <q>'<orgName ref="#o.softwareprojects">Software  Projects</orgName>'</q>
+<lb n="06"/>ein wirkliches  Meisterwerk  vollbracht,
+<lb n="07"/>was die Grafik und den  Sound  betrifft.
+<lb n="08"/>Auch der Preis von  DM 36.–  (Disketten<pc type="br">-</pc>
+<lb break="no" n="09"/>version) kann sich  sehen  lassen.  Ihre
+<lb n="10"/>Aufgabe besteht darin,  möglichst  viele
+<lb n="11"/>von den Vögeln  abzuschießen,  die  sich
+<lb n="12"/>auf dem Planeten herumtreiben, und  eine
+<lb n="13"/>Karte  zu  finden,  die  in  den  unter<pc type="br">-</pc>
+<lb break="no" n="14"/>irdischen Gängen des Planeten  versteckt
+<lb n="15"/>ist. Mehr wollen wir  an  dieser  Stelle
+<lb n="16"/>nicht verraten –  denn  was  macht  mehr
+<lb n="17"/>Spaß, als Spiele und deren  Sinn  selbst
+<lb n="18"/>zu erkunden? Das Game ist auf jeden Fall
+<lb n="19"/>seinen Preis wert!                      </p>
+</div>
+<div xml:id="div0302_thelastninja">
+<pb n="03" xml:id="pb0303"/>
+<figure>
+<graphic url="MD8712-XXX-3.3.koala.png"/>
+<desc resp="TR">Abbildung: Computerspiel "The Last Ninja"</desc>
+</figure>
+<pb n="04" xml:id="pb0304"/>
+<head rend="alignCenter" xml:id="head0304">
+<lb n="01"/>            The Last Ninja              
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Das Action Game  <title ref="#g.thelastninja" rend="allcaps">THE  LAST  NINJA</title>  hat's
+<lb n="05"/>wirklich in sich!                       </p>
+<p>
+<lb n="06"/>Nach <title ref="#g.explodingfist" rend="allcaps">EXPLODING  FIST</title>  und  <title ref="#g.internationalkarate" rend="allcaps">INTERNATIONAL
+<lb n="07"/>KARATE</title> ist  <title ref="#g.thelastninja" rend="allcaps">THE LAST NINJA</title>  das  vorerst
+<lb n="08"/>letzte Kampfspiel aus dem  Hause  <orgName ref="#o.system3">System
+<lb n="09"/>3</orgName>. Aber <title ref="#g.thelastninja" rend="allcaps">THE LAST NINJA</title>  übertrifft  ein<pc type="br">-</pc>
+<lb break="no" n="10"/>fach  alle  anderen  –  die  Grafik  ist
+<lb n="11"/>eigentlich  noch  besser  als  die   der
+<lb n="12"/>Vorgänger, und auch der  Sound  ist  vom
+<lb n="13"/>Feinsten. Aber nun zum Spielgeschehen:  </p>
+<p>
+<lb n="14"/>Als junger Ninja müssen Sie  die  Ninjas
+<lb n="15"/>rächen, die vom Shogun auf der Insel  Li
+<lb n="16"/>Fen  in  einen  Hinterhalt  gelockt  und
+<lb n="17"/>ermordet  wurden.  Außerdem   gilt   es,
+<lb n="18"/>einige Schriftrollen aus dem Palast  des
+<lb n="19"/>Shoguns zu holen. Ihr mühsamer Weg führt
+<pb n="05" xml:id="pb0305"/>
+<fw sameAs="#head0304"/>
+<lb n="03"/>Sie  dabei  durch  Moore,   Flüsse   und
+<lb n="04"/>Gebirge. Zur Verteidigung  stehen  Ihnen
+<lb n="05"/>neben   dem   typischen    Ninja-Schwert
+<lb n="06"/>Stöcke, Wurfsterne und  allerlei  andere
+<lb n="07"/>Waffen zur Verfügung. Die  brauchen  Sie
+<lb n="08"/>auch, um  mit  den  verschiedenen  Unge<pc type="br">-</pc>
+<lb break="no" n="09"/>heuern fertig zu werden. So  müssen  Sie
+<lb n="10"/>an einem feuerspeienden Drachen  vorbei<pc type="br">-</pc>
+<lb break="no" n="11"/>kommen oder Skelette besiegen, die  sich
+<lb n="12"/>Ihnen in den Weg stellen.               </p>
+<p>               
+<lb n="13"/>Wir garantieren Ihnen auf  Ihrem  schau<pc type="br">-</pc>
+<lb break="no" n="14"/>rigen Weg einen höllischen Spaß!        </p>
+<pb n="06" xml:id="pb0306"/>
+<figure>
+<graphic url="MD8712-XXX-3.6.koala.png"/>
+<desc resp="TR">Abbildung: Computerspiel "The Last Ninja"</desc>
+</figure>
+<pb n="07" xml:id="pb0307"/>
+<figure>
+<graphic url="MD8712-XXX-3.7.koala.png"/>
+<desc resp="TR">Abbildung: Computerspiel "The Last Ninja"</desc>
+</figure>
+</div>
+<div xml:id="div0303_californiagames" xml:space="preserve">
+<pb n="08" xml:id="pb0308"/>
+<figure>
+<graphic url="MD8712-XXX-3.8.koala.png"/>
+<desc resp="TR">Abbildung: Computerspiel "California Games"</desc>
+</figure>
+<pb n="09" xml:id="pb0309"/>
+<head rend="alignCenter" xml:id="head0309">
+<lb n="01"/>           California Games             
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Dreimal  dürfen   Sie   raten,   welchem
+<lb n="05"/>Softwarehaus   <title ref="#g.californiagames" rend="allcaps">CALIFORNIA   GAMES</title>   ent<pc type="br">-</pc>
+<lb break="no" n="06"/>sprungen  ist  –  natürlich  <orgName ref="#o.epyx" type="b">Epyx</orgName>.  Nach
+<lb n="07"/><title ref="#g.summergames">Summer-</title>, <title ref="#g.wintergames">Winter-</title> und <title ref="#g.worldgames">Worldgames</title> nun noch
+<lb n="08"/><title ref="#g.californiagames" rend="allcaps">CALIFORNIA GAMES</title>.                       </p>
+<p>
+<lb n="09"/>Wie bei allen Games und Olympiaden, gibt
+<lb n="10"/>es auch hier Disziplinen, bei denen  man
+<lb n="11"/>sich bewähren muß. Natürlich haben  sich
+<lb n="12"/>hier die  Programmierer  ganz  besondere
+<lb n="13"/>Wettkämpfe ausgesucht,  denn  <title ref="#g.californiagames" rend="allcaps">CALIFORNIA
+<lb n="14"/>GAMES</title> hat  nicht  umsonst  seinen  Namen
+<lb n="15"/>bekommen. Californien  ist,  wie  manche
+<lb n="16"/>sicher wissen,  der  Ort,  an  dem  neue
+<lb n="17"/>Sportarten immer auf die Spitze  getrie<pc type="br">-</pc>
+<lb break="no" n="18"/>ben werden, wie  damals  das  Skateboard
+<lb break="no" n="19"/><pc type="nbr">-</pc>Fahren.... Aber wir  wollen  nicht  vom
+<pb n="10" xml:id="pb0310"/>
+<fw sameAs="#head0309"/>
+<lb n="03"/>Thema abschweifen.  Folgende  Wettkämpfe
+<lb n="04"/>können alleine  oder  mit  maximal  acht
+<lb n="05"/>Mitspieler bestritten werden:           </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="07"/>HALF PIPE (Skateboard-Fahren),          
+<lb n="08"/>FOOT BAG (Hacky sack),                  
+<lb n="09"/>SURFING, SKATING, BMX und               
+<lb n="10"/>FLYING DISK (Frisbee-Werfen).           </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="12"/>Wie alle anderen Spiele von  <orgName ref="#o.epyx">Epyx</orgName>  fällt
+<lb n="13"/>auch  <title ref="#g.californiagames">CALIFORNIA GAMES</title> durch   die   gut
+<lb n="14"/>animierte Grafik und den  realitätsnahen
+<lb n="15"/>Sound auf. Die Disziplinen sind grafisch
+<lb n="16"/>alle bis ins letzte  Detail  ausgearbei<pc type="br">-</pc>
+<lb break="no" n="17"/>tet.                                    </p>
+</div>
+<div xml:id="div0304_pirates" xml:space="preserve">
+<pb n="11" xml:id="pb0311"/>
+<figure>
+<graphic url="MD8712-XXX-3.11.koala.png"/>
+<desc resp="TR">Abbildung: Computerspiel "Pirates!"</desc>
+</figure>
+<pb n="12" xml:id="pb0312"/>
+<head rend="alignCenter" xml:id="head0312">
+<lb n="01"/>               <title ref="#g.pirates">Pirates!</title>                 
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Versetzen  Sie  sich  zurück   ins   17.
+<lb n="05"/>Jahrhundert. Als Hungerlöhner auf  einer
+<lb n="06"/>Plantage  entschließen   Sie   sich   zu
+<lb n="07"/>flüchten, und zur See zu fahren. Wie  es
+<lb n="08"/>der Zufall will, liegt genau  zu  diesem
+<lb n="09"/>Zeitpunkt ein  Piratenschiff  im  Hafen.
+<lb n="10"/>Nun geht es daran, sich mit dem  Kapitän
+<lb n="11"/>zu  duellieren,  um  dann  sein   Schiff
+<lb n="12"/>übernehmen  zu  können.  Haben  Sie  das
+<lb n="13"/>geschafft, können Sie fremde  Häfen  an<pc type="br">-</pc>
+<lb break="no" n="14"/>laufen, Schiffe  angreifen  und  kapern,
+<lb n="15"/>Städte überfallen,  Gefangene  verkaufen
+<lb n="16"/>und und und..... Der Abenteuerlust  sind
+<lb n="17"/>keine Grenzen gesetzt.                  </p>
+<p>
+<lb n="18"/>Allerdings sollten Sie nicht allen  vier
+<lb n="19"/>Mächten (England,  Frankreich,  Spanien,
+<pb n="13" xml:id="pb0313"/>
+<fw sameAs="#head0312"/>
+<lb n="03"/><term target="#note0313_dutch">Deutschland</term>),  die  in   dieser   Region
+<lb n="04"/>vertreten sind, den Krieg erklären. Denn
+<lb n="05"/>sonst kann es sehr leicht passieren, daß
+<lb n="06"/>Sie nicht mehr ohne Kampf in eine  Stadt
+<lb n="07"/>gehen können. Natürlich ist das Spiel zu
+<lb n="08"/>Beginn ganz besonders schwer,  denn  Sie
+<lb n="09"/>haben noch ein  relativ  kleines  Schiff
+<lb n="10"/>und müssen auch noch lernen, richtig mit
+<lb n="11"/>dem Degen oder Schwert umzugehen. Sobald
+<lb n="12"/>Sie jedoch eine Fregatte  und  ein  paar
+<lb n="13"/>hundert Leute haben, steht Ihrem  Erfolg
+<lb n="14"/>als  Kapitän  und  Schrecken  der  Meere
+<lb n="15"/>nichts mehr im Wege..... oder vielleicht
+<lb n="16"/>doch???                                 </p>
+<note resp="TR" xml:id="note0313_dutch">
+	Gemeint: Niederlande, Übersetzungsfehler von engl. 'Dutch'.</note>
+<pb n="14" xml:id="pb0314"/>
+<figure>
+<graphic url="MD8712-XXX-3.14.koala.png"/>
+<desc resp="TR">Abbildung: Computerspiel "Pirates!"</desc>
+</figure>
+</div>
+<div xml:id="div0305_thepawn" xml:space="preserve">
+<pb n="15" xml:id="pb0315"/>
+<head rend="alignCenter" xml:id="head0315">
+<lb n="01"/>               <title ref="#g.thepawn">The Pawn</title>                 
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Das Adventure <q>'<title ref="#g.thepawn">The Pawn</title>'</q>  mag  ja  schon
+<lb n="05"/>etwas älter sein  –  an  Grafik  hat  es
+<lb n="06"/>jedoch  bis  jetzt  kaum   ein   anderes
+<lb n="07"/>Adventure übertroffen (Sie  werden  noch
+<lb n="08"/>einige Hi-Res-Bilder zu sehen bekommen).
+<lb n="09"/>Zur Story: Im Land Kerovnia  geht  alles
+<lb n="10"/>drunter und drüber. König Erik wird beim
+<lb n="11"/>Volk immer unbeliebter, die Zwerge hören
+<lb n="12"/>auf Whisky  zu  brennen,  und  Sie  sind
+<lb n="13"/>mitten drin im  Spielgeschehen.  Wie  es
+<lb n="14"/>bei den neuesten  Adventures  so  üblich
+<lb n="15"/>ist,  kennen  Sie  nicht   einmal   Ihre
+<lb n="16"/>Mission und müssen erst  einmal  wahllos
+<lb n="17"/>in der Gegend herumlaufen.              </p>
+<p>
+<lb n="18"/>Der  <term target="#note0315_interpreter">Command-Interpreter</term>  ist  bei  <q>'<title ref="#g.thepawn">The
+<lb n="19"/>Pawn</title>'</q> wirklich fantastisch. Ganze Sätze,
+<pb n="16" xml:id="pb0316"/>
+<fw sameAs="#head0315"/>
+<lb n="03"/>wie z.B. <q>"WALK INTO THE FURNITURE  SHOP"</q>
+<lb n="04"/>oder <q>"GET ALL EXCEPT THE CASES  BUT  NOT
+<lb n="05"/>THE VIOLIN CASE THEN KILL THE MAN EATING
+<lb n="06"/>SHREW WITH THE  CONTENS  OF  THE  VIOLIN
+<lb n="07"/>CASE"</q> werden verstanden. Nun wollen  wir
+<lb n="08"/>Ihnen aber nicht mehr länger die  tollen
+<lb n="09"/>Grafiken von <q>'<title ref="#g.thepawn">The Pawn</title>'</q> vorenthalten... </p>
+<note resp="TR" xml:id="note0315_interpreter">
+	Programm oder Teil eines Programms, das eingegebene Kommandos in eine Spielhandlung umsetzt.</note>
+<pb n="17" xml:id="pb0317"/>
+<figure>
+<graphic url="MD8712-XXX-3.17.koala.png"/>
+<desc resp="TR">Abbildung: Computerspiel "The Pawn"</desc>
+</figure>
+<pb n="18" xml:id="pb0318"/>
+<figure>
+<graphic url="MD8712-XXX-3.18.koala.png"/>
+<desc resp="TR">Abbildung: Computerspiel "The Pawn"</desc>
+</figure>
+<pb n="19" xml:id="pb0319"/>
+<figure>
+<graphic url="MD8712-XXX-3.19.koala.png"/>
+<desc resp="TR">Abbildung: Computerspiel "The Pawn"</desc>
+</figure>
+</div>
+<div xml:id="div0306_csj" xml:space="preserve">
+<pb n="20" xml:id="pb0320"/>
+<p rend="alignCenter preserveLines">
+<lb n="01"/>            <orgName ref="#o.csj">CSJ COMPUTERSOFT</orgName>            
+<lb n="02"/>  An der Tiefenriede 27, 3 Hannover 1   
+<lb n="03"/>         Tel.: 0511 / 88 63 83          </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="05"/>Von der <abbr>PCW</abbr> in London haben wir Superga<pc type="br">-</pc>
+<lb break="no" n="06"/>mes mitgebracht, von denen wir  nun  ein
+<lb n="07"/>paar vorstellen wollen.                 
+<lb n="08"/>1.<title ref="#g.pirates">PIRATES</title> : Ein Aktion Adventure der Su<pc type="br">-</pc>
+<lb break="no" n="09"/>perlative. Atemberaubende  Fechteinlagen
+<lb n="10"/>u. Seeschlachten machen aus diesem Spiel
+<lb n="11"/>ein Superabenteuer.                     
+<lb n="12"/>2.<title ref="#g.defenderofthecrown">DEFENDER OF THE CROWN</title>: Wenn  Sie  Rit<pc type="br">-</pc>
+<lb break="no" n="13"/>tertuniere lieben oder Burgen überfallen
+<lb n="14"/>müssen um  Ihre  Prinzessin  zu  befrei<pc type="br">-</pc>
+<lb break="no" n="15"/>en,dann sind Sie bei diesem  Spiel  voll
+<lb n="16"/>bedient.                                
+<lb n="17"/>3.<title ref="#g.californiagames">CALIFORNIA GAMES</title>:Wellenreiten,BMX fah<pc type="br">-</pc>
+<lb break="no" n="18"/>ren, Skateboard Wettbewerb.  Ein  Spiel,
+<lb n="19"/>das man einfach haben muß.              </p>
+<pb n="21" xml:id="pb0321"/>
+<!--no fw on this page-->
+<p>
+<lb n="01"/>Weitere Supergames finden Sie in unseren
+<lb n="02"/><title ref="#m.csjnews">CSJ NEWS</title>, die Sie gegen 80 Pf in  Brief<pc type="br">-</pc>
+<lb break="no" n="03"/>marken bei uns anfordern  können.  Bitte
+<lb n="04"/>Computertyp angeben.                    </p>
+<space dim="vertical" quantity="1"/>
+<p rend="alignCenter preserveLines">
+<lb n="06"/>            <orgName ref="#o.csj">CSJ COMPUTERSOFT</orgName>            
+<lb n="07"/>  An der Tiefenriede 27, 3 Hannover 1   
+<lb n="08"/>         Tel.: 0511 / 88 63 83          </p>
+</div>
+<div xml:id="div0307_topten" xml:space="preserve">
+<pb n="22" xml:id="pb0322"/>
+<head rend="alignCenter">
+<lb n="01"/>             <hi rend="allcaps spaced">T O P   T E N</hi>              
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<p>
+<space dim="vertical" quantity="1"/>
+<lb n="04"/>Welches Action-Spiel oder Adventure  mö<pc type="br">-</pc>
+<lb break="no" n="05"/>gen Sie persönlich am liebsten?         
+<lb n="06"/>Schreiben Sie den Namen auf  eine  Post<pc type="br">-</pc>
+<lb break="no" n="07"/>karte, und schicken Sie  diese  dann  an
+<lb n="08"/>den:                                    </p>
+<space dim="vertical" quantity="1"/>
+<ab rend="preformatted">
+<lb n="10"/>        ███████████████████████         
+<lb n="11"/>       ┌─────────────────────┐█         
+<lb n="12"/>       │ <hi rend="underlined">CP Verlag</hi> – TOP TEN │█         
+<lb n="13"/>       │ <span ana="#u">‾‾‾‾‾‾‾‾‾</span>           │█         
+<lb n="14"/>       │ Gufidaunerstraße 13 │█         
+<lb n="15"/>       │                     │█         
+<lb n="16"/>       │ 8501 Schwarzenbruck │█         
+<lb n="17"/>       └─────────────────────┘          </ab>
+<pb n="23" xml:id="pb0323"/>
+<p>
+<lb n="03"/>Wird Ihr Lieblingsspiel die Number  one,
+<lb n="04"/>können Sie  eines  von  20  Superspielen
+<lb n="05"/>gewinnen, die uns  der  Softwarevertrieb
+<lb n="06"/><orgName ref="#o.csj">Computersoft Jonigk</orgName>  zur  Verfügung  ge<pc type="br">-</pc>
+<lb break="no" n="07"/>stellt hat.                             </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="09"/>Übrigens:  Eine  komplette   Liste   der
+<lb n="10"/>aktuellen Softwaretitel  gibt  es  unter
+<lb n="11"/>der Adresse:                            </p>
+<space dim="vertical" quantity="1"/>
+<p rend="alignCenter preserveLines">
+<lb n="13"/>            <orgName ref="#o.csj">CSJ COMPUTERSOFT</orgName>            
+<lb n="14"/>         An der Tiefenriede 27          
+<lb n="15"/>              3 Hannover 1              
+<lb n="16"/>          Tel.: 0511/88 63 83           </p>
+</div>
+</div>
+<div xml:id="div04_bastelware" xml:space="preserve">
+<div xml:id="div0400_bastelware">
+<pb n="01" xml:id="pb0401"/>
+<head rend="alignCenter" type="h2" xml:id="head0401">
+<lb n="01"/>          <hi rend="allcaps spaced">B A S T E L W A R E</hi>           
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<p>
+<lb n="03"/>In dieser Rubrik sollen  auf  der  <title ref="#m.magicdisk64">Magic
+<lb n="04"/>disk 64</title> kleinere oder größere Basteleien
+<lb n="05"/>beschrieben werden,  die  den  <name ref="#c.c64">C64</name>  auf<pc type="br">-</pc>
+<lb break="no" n="06"/>rüsten  und  die  jeder  Besitzer  eines
+<lb n="07"/>Lötkolbens leicht selbst aufbauen  kann.
+<lb n="08"/>Sie werden sicherlich verstehen, daß wir
+<lb n="09"/>trotz  alledem  keinerlei  Haftung   für
+<lb n="10"/>Schäden übernehmen können, die auf Grund
+<lb n="11"/>eines  Nachbaus  einer   Schaltung   aus
+<lb n="12"/>dieser Rubrik entstehen.                </p>
+</div>
+<div xml:id="div0401_dauerfeuermodul">
+<p>
+<lb n="13"/>Dieses Mal  wollen  wir  den  Bau  einer
+<lb n="14"/>kleinen Hardwareerweiterung für den Joy<pc type="br">-</pc>
+<lb break="no" n="15"/>stickport erklären. Zunächst jedoch  zum
+<lb n="16"/>Sinn unseres Selbstbaus:                </p>
+<p>
+<lb n="17"/>Wer kennt nicht  die  Spiele,  die  zwar
+<lb n="18"/>wahnsinnig  interessant  aussehen,  aber
+<lb n="19"/>leider unspielbar  sind,  weil  man  für
+<pb n="02" xml:id="pb0402"/>
+<fw sameAs="#head0401"/>
+<lb n="03"/>jeden  Schuß,  den  man  abfeuern  will,
+<lb n="04"/>erneut den Feuerknopf drücken  muß,  an<pc type="br">-</pc>
+<lb break="no" n="05"/>statt ihn gleich zu halten. Einige  Fir<pc type="br">-</pc>
+<lb break="no" n="06"/>men haben sich  diesem  Problem  bereits
+<lb n="07"/>angenommen und in  ihre  Joysticks  eine
+<lb n="08"/>Dauerfeuerfunktion eingebaut. Diese Joy<pc type="br">-</pc>
+<lb break="no" n="09"/>sticks haben leider zwei Nachteile:     </p>
+<p>
+<lb n="10"/>Erstens ist  bei  den  meisten  die  Ge<pc type="br">-</pc>
+<lb break="no" n="11"/>schwindigkeit des Dauerfeuers nicht ein<pc type="br">-</pc>
+<lb break="no" n="12"/>stellbar, und zweitens  gehen  die  Joy<pc type="br">-</pc>
+<lb break="no" n="13"/>sticks kaputt und  man  muß  die  Dauer<pc type="br">-</pc>
+<lb break="no" n="14"/>feuerschaltung mit wegwerfen, obwohl sie
+<lb n="15"/>noch funktioniert.                      </p>
+<p>
+<lb n="16"/>Gegen all diese Mängel hilft nun  unsere
+<lb n="17"/>selbstgebaute Schaltung.  Mit  ihr  läßt
+<lb n="18"/>sich ein Dauerfeuer  bei  Joystickknopf<pc type="br">-</pc>
+<lb break="no" n="19"/>druck einschalten, das man  regeln  kann
+<pb n="03" xml:id="pb0403"/>
+<fw sameAs="#head0401"/>
+<lb n="03"/>und das mit jedem Joystick funktioniert,
+<lb n="04"/>ohne Eingriff in denselben.             </p>
+<p>
+<lb n="05"/>Der Trick ist ganz  einfach.  Wir  bauen
+<lb n="06"/>ein Kästchen, das zwischen den  Computer
+<lb n="07"/>und den Joystick gesteckt wird.  An  ihm
+<lb n="08"/>läßt sich dann auch die  Geschwindigkeit
+<lb n="09"/>einstellen.                             </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="11"/>Auf der nächsten Seite finden  Sie  eine
+<lb n="12"/>Liste aller Teile, die Sie übrigens  bei
+<lb n="13"/>jedem Elektronikgeschäft  bekommen  kön<pc type="br">-</pc>
+<lb break="no" n="14"/>nen. Danach  folgt  der  Schaltplan  des
+<lb n="15"/>Dauerfeuers. Wenn Sie mit  den  Symbolen
+<lb n="16"/>der elektronischen Bauteile  noch  nicht
+<lb n="17"/>vertraut sind, wenden Sie sich bitte  an
+<lb n="18"/>das Elektronikgeschäft Ihres Vertrauens.</p>
+<pb n="04" xml:id="pb0404"/>
+<fw sameAs="#head0401"/>
+<p>
+<lb n="03"/>Bauteileliste für das Dauerfeuermodul:  </p>
+<space dim="vertical" quantity="1"/>
+<ab rend="preformatted">
+<lb n="05"/>Anzahl   Bezeichnung                    
+<!-- hr -->
+<lb n="06"/>‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾          
+<lb n="07"/>1        IC          NE555              
+<lb n="08"/>1        Poti        250 Ohm            
+<lb n="09"/>1        Kondensator 10 microF          
+<space dim="vertical" quantity="1"/>
+<lb n="11"/>1        Joystickeinbaustecker          
+<lb n="12"/>1        Joystickeinbaubuchse           
+<lb n="13"/>1        Schalter                       </ab>
+<pb n="05" xml:id="pb0405"/>
+<figure>
+<graphic url="MD8712-BASTELWARE-4.5.koala.png"/>
+<desc resp="TR">Abbildung: Schaltplan "Dauerfeuermodul"</desc>
+</figure>
+<pb n="06" xml:id="pb0406"/>
+<fw sameAs="#head0401"/>
+<p>
+<lb n="03"/>Nun zur Erklärung der Funktionsweise:   </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="05"/>Der Timer NE555 wird durch  das  Drücken
+<lb n="06"/>des Feuerknopfes oder durch den Schalter
+<lb n="07"/>eingeschaltet. Mit einer bestimmten  Ge<pc type="br">-</pc>
+<lb break="no" n="08"/>schwindigkeit, die  wir  über  das  Poti
+<lb n="09"/>einstellen können, setzt er dann  seinen
+<lb n="10"/>Ausgang abwechselnd auf 0 oder 5V.  Die<pc type="br">-</pc>
+<lb break="no" n="11"/>ser Ausgang ist  an  die  Leitung  ange<pc type="br">-</pc>
+<lb break="no" n="12"/>schlossen, die normalerweise zum  Feuer<pc type="br">-</pc>
+<lb break="no" n="13"/>knopf führt.  Somit  <q>'schießt'</q>  nun  der
+<lb n="14"/>Timer für uns.                          </p>
+<p>
+<lb n="15"/>Mit dieser Platine können wir nun  jeden
+<lb n="16"/>beliebigen Joystick zu einem Dauerfeuer<pc type="br">-</pc>
+<lb break="no" n="17"/>joystick umrüsten, ohne einen  teuereren
+<lb n="18"/>Solchen kaufen zu müssen.               </p>
+<pb n="07" xml:id="pb0407"/>
+<fw sameAs="#head0401"/>
+<p>
+<lb n="03"/>Und wenn Sie schon einen  Dauerfeuerjoy<pc type="br">-</pc>
+<lb break="no" n="04"/>stick besitzen? Keine  Sorge,  auch  der
+<lb n="05"/>geht irgendwann kaputt!                 </p>
+<space dim="vertical" quantity="3"/>
+<p rend="preserveLines">
+<lb n="09"/>Viel Spaß wünscht Ihnen                 
+<space dim="vertical" quantity="3"/>
+<lb n="13"/>            Ihr Magic team.             </p>
+</div>
+</div>
+<div xml:id="div05_utilities" xml:space="preserve">
+<div xml:id="div0500_utilities">
+<pb n="01" xml:id="pb0501"/>
+<head rend="alignCenter" type="h2" xml:id="head0501">
+<lb n="01"/>           <hi rend="allcaps spaced">U T I L I T I E S</hi>            
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<p>
+<lb n="03"/>Neben Spielen finden Sie auf  der  <title ref="#m.magicdisk64">Magic
+<lb n="04"/>disk 64</title> auch sinnvolle Anwendungen,  mit
+<lb n="05"/>denen Sie mehr aus Ihrem C64 machen kön<pc type="br">-</pc>
+<lb break="no" n="06"/>nen. Diese Utilities  wollen  wir  Ihnen
+<lb n="07"/>nun beschreiben, damit Sie sie  problem<pc type="br">-</pc>
+<lb break="no" n="08"/>los bedienen können. Wenn Sie  eine  be<pc type="br">-</pc>
+<lb break="no" n="09"/>stimmte Beschreibung suchen, so  entneh<pc type="br">-</pc>
+<lb break="no" n="10"/>men  Sie  die  entsprechende  Seitenzahl
+<lb n="11"/>bitte der folgenden Liste:              </p>
+<space dim="vertical" quantity="2"/>
+<ab rend="preformatted" type="toc">
+<lb n="14"/><ref target="#div0501_interruptmodule">Interupt Module 1.0..................02</ref> 
+<lb n="15"/><ref target="#div0502_protector">Protector............................08</ref> 
+<lb n="16"/><ref target="#div0503_packerdepacker">Packer...............................10</ref> 
+<lb n="17"/><ref target="#div0504_spritegenerator">Sprite Editor........................17</ref> 
+<lb n="18"/><ref target="#div0505_picturestarter">Picture Starter......................18</ref> 
+<supplied>
+<lb n="s1"/><ref target="#div0506_zehnerblock">Zehnerblock..........................19</ref> </supplied></ab>
+</div>
+<div xml:id="div0501_interruptmodule">
+<pb n="02" xml:id="pb0502"/>
+<head rend="alignCenter" xml:id="head0502">
+<lb n="01"/>          <title ref="#u.interruptmodule">Interupt Module 1.0</title>           
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<p>
+<lb n="03"/>Beim Interupt Module 1.0 handelt es sich
+<lb n="04"/>um eine  Basicerweitung,  die  mit  <code>LOAD</code>
+<lb n="05"/><code>"INTERUPT MODULE",8,1</code>  geladen  und  mit
+<lb n="06"/><code>SYS 64738</code> oder dem Drücken eines  Reset<pc type="br">-</pc>
+<lb break="no" n="07"/>tasters gestartet wird.                 </p>
+<p>
+<lb n="08"/>Wenn das geschehen ist, so  meldet  sich
+<lb n="09"/>die  Erweiterung  mit  ihrer  Einschalt<pc type="br">-</pc>
+<lb break="no" n="10"/>meldung und einem hellgrauen Bildschirm<pc type="br">-</pc>
+<lb break="no" n="11"/>hintergrund, der  auch  durch  <code>RUN/STOP</code><pc>-</pc>
+<lb n="12"/><code>RESTORE</code> nicht geändert wird.            </p>
+<p>
+<lb n="13"/>Das alte  Commodore  <term target="#note0502_basic">Basic</term>  funktioniert
+<lb n="14"/>auch weiterhin, es  sind  jedoch  einige
+<lb n="15"/>Befehle  hinzugekommen,  die  sich   zur
+<lb n="16"/>Sicherung von Programmen als sehr  nütz<pc type="br">-</pc>
+<lb break="no" n="17"/>lich erweisen und oft unerwartete Effek<pc type="br">-</pc>
+<lb break="no" n="18"/>te erzeugen.                            </p>
+<note resp="TR" xml:id="note0502_basic">
+	BASIC: Beginners' All-purpose Symbolic Instruction Code, eine Familie von höheren Programmiersprachen.
+	BASIC wurde erstmals 1964 veröffentlicht und kommt seit 1977 in verschiedenen Versionen auf Commodore-Geräten zum Einsatz.
+	Quelle: <ref target="https://en.wikipedia.org/wiki/BASIC">Wikipedia (en)</ref>.</note>
+<pb n="03" xml:id="pb0503"/>
+<fw sameAs="#head0502"/>
+<p>
+<lb n="03"/>Die neuen Befehle sind:                 </p>
+<space dim="vertical" quantity="1"/>
+<ab rend="preformatted twoColums">
+<cb n="a"/>
+<lb n="04a"/> <code>ON RESET GOTO x</code>   
+<lb n="05a"/> <code>ON NMI GOTO x</code>     
+<lb n="06a"/> <code>ON BRK GOTO x</code>     
+<cb n="b"/>
+<lb n="04b"/><code>ON RUNSTOP GOTO x</code>    
+<lb n="05b"/><code>ON LIST GOTO x</code>       
+<lb n="06b"/><code>ON ERR GOTO x</code>        </ab>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="08"/>Ganz neu ist  die  Form  dieser  Befehle
+<lb n="09"/>sicher nicht, denn <code>ON a GOTO  x</code>  gab  es
+<lb n="10"/>bisher ja auch schon. Neu ist aber,  daß
+<lb n="11"/>die Befehle nur einmal am Anfang des Ba<pc type="br">-</pc>
+<lb break="no" n="12"/>sicprogramms stehen müssen und  trotzdem
+<lb n="13"/>erst dann ausgeführt  werden,  wenn  das
+<lb n="14"/>entsprechende  Ereignis  eintritt.   Zum
+<lb n="15"/>Beispiel...                             </p>
+<pb n="04" xml:id="pb0504"/>
+<fw sameAs="#head0502"/>
+<p>
+<lb n="03"/><code rend="block">ON RESET GOTO:</code>                          
+<lb n="04"/>Nachdem dieser Befehl durchlaufen wurde,
+<lb n="05"/>ist  der  Resettaster  <q>'umprogrammiert'</q>.
+<lb n="06"/>Wenn von jetzt ab Reset  gedrückt  wird,
+<lb n="07"/>um Ihr Programm zu unterbrechen, so wird
+<lb n="08"/>statt dessen die Zeile angesprungen, die
+<lb n="09"/>nach dem <code>GOTO</code> festgelegt wurde.         </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="11"/><code rend="block">ON NMI GOTO:</code>                            
+<lb n="12"/>Der  Effekt  ist  der  gleiche  wie  bei
+<lb n="13"/>Reset, nur daß  hier  die  entsprechende
+<lb n="14"/>Zeile durchlaufen  wird,  wenn  man  die
+<lb n="15"/>Restoretaste drückt. NMI  heißt  es  nur
+<lb n="16"/>deswegen, weil die Restoretaste  an  die
+<lb n="17"/>NMI-Leitung des C64 angeschlossen ist.  </p>
+<pb n="05" xml:id="pb0505"/>
+<fw sameAs="#head0502"/>
+<p>
+<lb n="03"/><code rend="block">ON BRK GOTO:</code>                            
+<lb n="04"/>Wenn Sie schon einmal <code>SYS2048</code> eingetippt
+<lb n="05"/>haben, dann wissen sie  sicherlich,  daß
+<lb n="06"/>das  zu  einer  Reaktion  des  Computers
+<lb n="07"/>führt, die <code>RUN/STOP-RESTORE</code> gleichkommt.
+<lb n="08"/>Gelegentlich  wird  dieser  Effekt,  der
+<lb n="09"/>immer  auftritt,  wenn  ein   Maschinen<pc type="br">-</pc>
+<lb break="no" n="10"/>programm auf ein Byte mit dem Inhalt  00
+<lb n="11"/>stößt, dazu benutzt, um in die  Listings
+<lb n="12"/>von Programmen zu kommen. Mit diesem Be<pc type="br">-</pc>
+<lb break="no" n="13"/>fehl können Sie Ihr Progamm davor schüt<pc type="br">-</pc>
+<lb break="no" n="14"/>zen, indem Sie mit dem <code>GOTO</code> eine  Stelle
+<lb n="15"/>in Ihrem Programm bestimmen, zu der  der
+<lb n="16"/>Computer springt, wenn er  normalerweise
+<lb n="17"/>einen solchen <q>'Break'</q> (-daher  der  Name
+<lb n="18"/>BRK) durchführen würde.                 </p>
+<pb n="06" xml:id="pb0506"/>
+<fw sameAs="#head0502"/>
+<p>
+<lb n="03"/><code rend="block">ON RUNSTOP GOTO:</code>                        
+<lb n="04"/>Der Sinn ist sicher jedem klar: Wer  das
+<lb n="05"/>Drücken  der  Run/Stop-Taste  verhindern
+<lb n="06"/>will, der <code>POKE</code>t <code>808,225</code>. Jetzt  gibt  es
+<lb n="07"/>aber zusätzlich  noch  die  Möglichkeit,
+<lb n="08"/>auf den Versuch, Ihr Programm zu  unter<pc type="br">-</pc>
+<lb break="no" n="09"/>brechen, mit einer  eingebauten  Routine
+<lb n="10"/>Ihrer Wahl zu reagieren.                </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="12"/><code rend="block">ON LIST GOTO:</code>                           
+<lb n="13"/>Sinnvoll können alle Schützereien natür<pc type="br">-</pc>
+<lb break="no" n="14"/>lich nur dann sein, wenn  man  das  Pro<pc type="br">-</pc>
+<lb break="no" n="15"/>gramm nicht mehr auflisten  kann.  Dafür
+<lb n="16"/>ist dieser  Befehl.  Anstatt  zu  <code>LIST</code>en
+<lb n="17"/>wird die festgelegte Programmzeile ange<pc type="br">-</pc>
+<lb break="no" n="18"/>sprungen.                               </p>
+<pb n="07" xml:id="pb0507"/>
+<fw sameAs="#head0502"/>
+<p>
+<lb n="03"/><code rend="block">ON ERR GOTO:</code>                            
+<lb n="04"/>Einige mögen diesen Befehl schon kennen.
+<lb n="05"/>Wenn ein Fehler im Programm auftritt, so
+<lb n="06"/>wird das Programm  nicht  mehr  abgebro<pc type="br">-</pc>
+<lb break="no" n="07"/>chen, sondern es wird eine  Unterroutine
+<lb n="08"/>durchlaufen, die im  Programm  enthalten
+<lb n="09"/>ist.                                    </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="11"/>Lange und breite  Erklärungen  sind  für
+<lb n="12"/>diese Befehle wohl nicht nötig. Auf  der
+<lb n="13"/>Diskette befindet  sich  aber  ein  Bei<pc type="br">-</pc>
+<lb break="no" n="14"/>spielprogramm,  welches  die   einzelnen
+<lb n="15"/>Effekte gut demonstriert. Bitte beachten
+<lb n="16"/>Sie aber, daß die Erweiterung nach  ein<pc type="br">-</pc>
+<lb break="no" n="17"/>maligem  Starten  des  Beispielprogramms
+<lb n="18"/>aktiv wird und ein Auflisten  oder  Ähn<pc type="br">-</pc>
+<lb break="no" n="19"/>liches nicht mehr möglich ist.          </p>
+</div>
+<div xml:id="div0502_protector">
+<pb n="08" xml:id="pb0508"/>
+<head rend="alignCenter" xml:id="head0508">
+<lb n="01"/>               Protector                
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<p>
+<lb n="03"/>Mit dem <ref target="#div0501_interruptmodule">Interupt Module 1.0</ref> haben wir ja
+<lb n="04"/>schon eine gute Möglichkeit vorgestellt,
+<lb n="05"/>Basicprogramme vor  fremdem  Zugriff  zu
+<lb n="06"/>schützen. Hier nun eine weitere:        </p>
+<p>
+<lb n="07"/>Der Protector  wird  mit  <code>LOAD  "PROTEC</code><pc type="br">-</pc>
+<lb break="no" n="08"/><code>TOR",8,1</code> geladen. Nach <code>NEW</code> sollte das zu
+<lb n="09"/>schützende Basicprogramm geladen werden.
+<lb n="10"/>Dann startet man den Protector  mit  <code>SYS</code>
+<lb n="11"/><code>49152</code>. Es erscheint eine Anzeige auf dem
+<lb n="12"/>Bildschirm, auf der Sie erkennen können,
+<lb n="13"/>welche Zeile des  Programms  gerade  ge<pc type="br">-</pc>
+<lb break="no" n="14"/>schützt wird. Wenn Sie  nur  einen  Teil
+<lb n="15"/>Ihres  Programms  schützen  wollen,   so
+<lb n="16"/>drücken Sie vor der entsprechenden Zeile
+<lb n="17"/><code>RUN/STOP</code>. Ansonsten halten Sie eine  be<pc type="br">-</pc>
+<lb break="no" n="18"/>liebige Taste solange gedrückt, bis  das
+<lb n="19"/>ganze Programm geschützt ist.  Ein  Auf<pc type="br">-</pc>
+<pb n="09" xml:id="pb0509"/>
+<fw sameAs="#head0508"/>
+<lb break="no" n="03"/>listen ergibt zwar die  Darstellung  der
+<lb n="04"/>Zeilennummern, die  Zeilen  selbst  aber
+<lb n="05"/>sind verschwunden und lassen sich  nicht
+<lb n="06"/>mehr zurückholen. Später eingefügte Zei<pc type="br">-</pc>
+<lb break="no" n="07"/>len bleiben sichtbar und lassen sich bei
+<lb n="08"/>Bedarf nochmal mitschützen.             </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="10"/>Eine Sicherheitskopie des Basicprogramms
+<lb n="11"/>sollten Sie sich natürlich vorher  schon
+<lb n="12"/>machen.                                 </p>
+</div>
+<div xml:id="div0503_packerdepacker">
+<pb n="10" xml:id="pb0510"/>
+<head rend="alignCenter" xml:id="head0510">
+<lb n="01"/>            Packer/Depacker             
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<p>
+<lb n="03"/>Ein weiteres Utility ist in diesem Monat
+<lb n="04"/>ein sog. "PACKER" bzw.  "DEPACKER".  Was
+<lb n="05"/>kann man aber mit diesem Programm anfan<pc type="br">-</pc>
+<lb break="no" n="06"/>gen?                                    </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="08"/>Kurz  gesagt:  Man  kann  damit   einige
+<lb n="09"/>Programme erheblich verkürzen, was  sich
+<lb n="10"/>darin äußert, daß diese "gepackten" Pro<pc type="br">-</pc>
+<lb break="no" n="11"/>gramme weniger  kostbaren  Speicherplatz
+<lb n="12"/>auf der Diskette benötigen.             </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="14"/>Gepackt werden können  alle  Basic-  und
+<lb n="15"/>Maschinenprogramme, die nicht aus mehre<pc type="br">-</pc>
+<lb break="no" n="16"/>ren Teilen bestehen, beim  normalen  Ba<pc type="br">-</pc>
+<lb break="no" n="17"/>sicanfang (=2049, =$0801)  beginnen  und
+<lb n="18"/>nicht mit einem Autostart arbeiten.     </p>
+<pb n="11" xml:id="pb0511"/>
+<fw sameAs="#head0510"/>
+<p>
+<lb n="03"/>Kurz gesagt, alle  Programme,  die  sich
+<lb n="04"/>nach dem Einschalten des C64 mit        
+<space dim="vertical" quantity="1"/>
+<lb n="06"/><code rend="block">LOAD"NAME",8</code> und <code>RUN</code> starten lassen.    </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="08"/>Wie kann man nun ein Programm packen?   
+<lb n="09"/>Nun, zunächst schalten Sie  bitte  Ihren
+<lb n="10"/>C64 aus und wieder an, damit dessen  Ar<pc type="br">-</pc>
+<lb break="no" n="11"/>beitsspeicher gelöscht wird.  Laden  Sie
+<lb n="12"/>dann das Packer/Depackerprogramm mit:   
+<space dim="vertical" quantity="1"/>
+<lb n="14"/><code rend="block">LOAD"PACKER/DEPACKER",8,1</code>               </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="16"/>Erscheint  die  Meldung  <code>READY</code>  auf  dem
+<lb n="17"/>Bildschirm, so geben sie bitte  <code>NEW</code>  ein
+<lb n="18"/>und drücken <code>RETURN</code>. Das Packer/Depacker<pc type="br">-</pc>
+<lb break="no" n="19"/>paket ist jetzt installiert.            </p>
+<pb n="12" xml:id="pb0512"/>
+<fw sameAs="#head0510"/>
+<p>
+<lb n="03"/>Jetzt schieben Sie die Diskette  in  das
+<lb n="04"/>Laufwerk, die das Programm enthält,  das
+<lb n="05"/>Sie packen möchten, und laden  das  Pro<pc type="br">-</pc>
+<lb break="no" n="06"/>gramm wie gewohnt:                      
+<space dim="vertical" quantity="1"/>
+<lb n="08"/><code rend="block">LOAD"PROGRAMMNAME",8</code>                    </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="10"/>Nach <code>READY</code> geben Sie  jedoch  nicht  <code>RUN</code>
+<lb n="11"/>ein, denn das  Programm  soll  ja  jetzt
+<lb n="12"/>nicht starten, sondern  gepackt  werden.
+<lb n="13"/>Stattdessen starten Sie den Packer mit: 
+<space dim="vertical" quantity="1"/>
+<lb n="15"/><code rend="block">SYS 50000</code>                               </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="17"/>... worauf sich der Packer melden  müßte
+<lb n="18"/>und von Ihnen den  Namen  des  gepackten
+<lb n="19"/>Programms verlangt. Das  ist  der  Name,
+<pb n="13" xml:id="pb0513"/>
+<fw sameAs="#head0510"/>
+<lb n="03"/>unter  dem  das  gepackte  Programm  auf
+<lb n="04"/>Diskette  abgespeichert  wird.  Schieben
+<lb n="05"/>Sie also jetzt erst eine  Diskette,  die
+<lb n="06"/>noch genügend Speicherplatz enthält  und
+<lb n="07"/>ohne Schreibschutz ist, in Ihr Laufwerk.
+<lb n="08"/>Danach geben Sie bitte  den  gewünschten
+<lb n="09"/>Namen  ein  (maximal  16  Zeichen)   und
+<lb n="10"/>drücken <code>RETURN</code>.                         </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="12"/>Hinweis: Es hat sich als  praktisch  er<pc type="br">-</pc>
+<lb break="no" n="13"/>wiesen, das gepackte Programm mit  einem
+<lb n="14"/>ähnlichen Namen wie das Originalprogramm
+<lb n="15"/>zu bezeichnen.  Beispielsweise  mit  dem
+<lb n="16"/>Originalnamen, dem die Zeichen "P/" vor<pc type="br">-</pc>
+<lb break="no" n="17"/>angestellt werden.                      </p>
+<space dim="vertical" quantity="2"/>
+<pb n="14" xml:id="pb0514"/>
+<p>
+<lb n="03"/>Haben Sie den Namen eingegeben,  beginnt
+<lb n="04"/>das Programm mit  dem  Packen.  Auf  dem
+<lb n="05"/>Bildschirm stehen  drei  Hexadezimalzah<pc type="br">-</pc>
+<lb break="no" n="06"/>len. Die linke  ($0801)  bezeichnet  den
+<lb n="07"/>Programmstart  (entspricht  2049),   die
+<lb n="08"/>rechte  Zahl  dementsprechend  das  Pro<pc type="br">-</pc>
+<lb break="no" n="09"/>grammende.  Die   Mittlere   schließlich
+<lb n="10"/>zeigt  dem  Programmierer,  an   welcher
+<lb n="11"/>Stelle im  Speicher  der  Packer  gerade
+<lb n="12"/>packt. Hat diese Zahl die rechte  Grenze
+<lb n="13"/>erreicht, so ist Ihr Programm fertig ge<pc type="br">-</pc>
+<lb break="no" n="14"/>packt und der Computer meldet  sich  mit
+<lb n="15"/><code>READY</code>.                                  </p>
+<pb n="15" xml:id="pb0515"/>
+<fw sameAs="#head0510"/>
+<p>
+<lb n="03"/>Wenn sie noch weitere  Programme  packen
+<lb n="04"/>möchten, so verfahren Sie wie  oben  be<pc type="br">-</pc>
+<lb break="no" n="05"/>schrieben. Das  Programm  "PACKER/DEPAK<pc type="br">-</pc>
+<lb break="no" n="06"/>KER" müssen Sie nun nicht nochmal laden.</p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="08"/>Wenn Sie nun einen  Blick  auf  das  In<pc type="br">-</pc>
+<lb break="no" n="09"/>haltsverzeichnis der Diskette werfen, so
+<lb n="10"/>können Sie feststellen, ob das  gepackte
+<lb n="11"/>Programm kürzer ist  als  das  Original.
+<lb n="12"/>Ist das der Fall, so hat sich das Packen
+<lb n="13"/>gelohnt.                                </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="15"/>Das  "Entpacken"  funktioniert  ähnlich.
+<lb n="16"/>Geben Sie dazu <q>'<code>SYS 51000</code>'</q>  ein,  worauf
+<lb n="17"/>sich der Depacker meldet und  den  Namen
+<lb n="18"/>des gepackten Programms verlangt. Dieses
+<lb n="19"/>wird dann von der Diskette gelesen, ent<pc type="br">-</pc>
+<pb n="16" xml:id="pb0516"/>
+<fw sameAs="#head0510"/>
+<lb break="no" n="03"/>packt und im Speicher des C64  abgelegt.
+<lb n="04"/>Sie können es nach <code>READY</code> ganz normal mit
+<lb n="05"/><code>RUN</code> starten.                            </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="07"/>Zum Packen eignen sich am besten Spiele,
+<lb n="08"/>die auf einem relativ  großen  Spielfeld
+<lb n="09"/>aufbauen.  Das  legendäre  Spiel   <q>"<title ref="#g.fortapocalypse">FORT
+<lb n="10"/>APOCALYPSE</title>"</q>  ist  so  ein  Programm.  Es
+<lb n="11"/>braucht  in  der   Originalversion   157
+<lb n="12"/><term target="#note0516_blocks">Blocks</term> auf der  Diskette.  In  gepackter
+<lb n="13"/>Version sind es nur noch 90!            </p>
+<note resp="TR" xml:id="note0516_blocks">
+	Ein „Block“ entspricht hier 256 Byte, d.h. 157 Blocks ≈ 40 kB, 90 Blocks ≈ 23 kB.
+	Quelle: <ref target="https://www.c64-wiki.de/wiki/Diskette">C64 Wiki</ref>.</note>
+</div>
+<div xml:id="div0504_spritegenerator">
+<pb n="17" xml:id="pb0517"/>
+<head rend="alignCenter">
+<lb n="01"/>           Sprite Generator             
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Mit  diesem  wohl  einmaligen   Programm
+<lb n="05"/>können Sie im Speicher befindliche <term target="#note0517_sprite">Spri<pc type="br">-</pc>
+<lb break="no" n="06"/>tes</term> verändern und aufstöbern.  Natürlich
+<lb n="07"/>können Sie auch eigene  Sprites  erstel<pc type="br">-</pc>
+<lb break="no" n="08"/>len. Vor allem die  vielen  komfortablen
+<lb n="09"/>Funktionen  wie  invertieren,  kopieren,
+<lb n="10"/>spiegeln, scrollen, mischen und  überla<pc type="br">-</pc>
+<lb break="no" n="11"/>gern machen das Programm zum  unentbehr<pc type="br">-</pc>
+<lb break="no" n="12"/>lichen Werkzeug eines jeden  Programmie<pc type="br">-</pc>
+<lb break="no" n="13"/>rers. Weitere Beschreibungen  zu  Sprite
+<lb n="14"/>Generator sind nicht nötig, da sich  das
+<lb n="15"/>Programm selbst erklärt.                </p>
+<note resp="TR" xml:id="note0517_sprite">
+	Sprite (engl. Kobold): Grafikobjekt, das hardwareseitig über dem Bildschirminhalt eingeblendet wird.
+	Quelle: <ref target="https://de.wikipedia.org/wiki/Sprite_(Computergrafik)">Wikipedia (de)</ref>.</note>
+</div>
+<div xml:id="div0505_picturestarter">
+<pb n="18" xml:id="pb0518"/>
+<head rend="alignCenter">
+<lb n="01"/>            Picture-Starter             
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Fast alle Spiele, die es zu kaufen gibt,
+<lb n="05"/>sind mit einem Autostarter ausgestattet,
+<lb n="06"/>d.h. Sie müssen nicht  das  lästige  <code>RUN</code>
+<lb n="07"/>eingeben, um das  Programm  zu  starten.
+<lb n="08"/>Das übernimmt der Computer für Sie.     
+<lb n="09"/>Mit dem Picture-Starter können  Sie  nun
+<lb n="10"/>endlich  auch  Ihre  Basicprogramme  mit
+<lb n="11"/>einem derartigen  Startsystem  versehen.
+<lb n="12"/>Und was noch besser ist: Sie können  so<pc type="br">-</pc>
+<lb break="no" n="13"/>gar noch eine ganze Bildschirmseite aus<pc type="br">-</pc>
+<lb break="no" n="14"/>geben. Auf dieser Bildschirmseite können
+<lb n="15"/>dann  Aufforderungen  wie  <q>'PLEASE WAIT'</q>
+<lb n="16"/>oder <q>'BITTE WARTEN'</q> stehen.             </p>
+</div>
+<div xml:id="div0506_zehnerblock">
+<pb n="19" xml:id="pb0519"/>
+<fw sameAs="#head0501"/>
+<head rend="alignCenter"><supplied>Zehnerblock</supplied></head>
+<p>
+<lb n="03"/>Ein weiteres kleines Utility diesen  Mo<pc type="br">-</pc>
+<lb break="no" n="04"/>nat ist eine Routine für alle,  die  auf
+<lb n="05"/>ihrem C128 vorwiegend im C64-Modus  pro<pc type="br">-</pc>
+<lb break="no" n="06"/>grammieren. Dabei ist es nämlich lästig,
+<lb n="07"/>daß der extra Zahlenblock rechts von der
+<lb n="08"/>normalen Tastatur im C64-Modus nicht  zu
+<lb n="09"/>verwenden ist. Das Utility "<title ref="#u.zehnerblock">ZEHNERBLOCK</title>"
+<lb n="10"/>schafft da Abhilfe. Es wird mit:        
+<lb n="11"/><code rend="block">LOAD"ZEHNERBLOCK",8,1</code>                   
+<lb n="12"/>geladen. Danach geben Sie bitte <code>NEW</code>  ein
+<lb n="13"/>und aktivieren die Zehnertastatur mit:  
+<lb n="14"/><code rend="block">SYS 53100.</code>                              </p>
+<p>
+<lb n="15"/>Sie können jetzt alle Tasten des Zehner<pc type="br">-</pc>
+<lb break="no" n="16"/>blocks (mit Ausnahme des Dezimalpunktes)
+<lb n="17"/>sowie die Cursortasten oben verwenden.  
+<lb n="18"/>Ausgeschaltet  wird  die  Zehnertastatur
+<lb n="19"/>mit <code>RUNSTOP</code> + <code>RESTORE</code>.                  </p>
+</div>
+</div>
+<div xml:id="div06_games" xml:space="preserve">
+<div xml:id="div0600_games">
+<pb n="01" xml:id="pb0601"/>
+<head rend="alignCenter" type="h2">
+<lb n="01"/>               <hi rend="allcaps spaced">G A M E S</hi>                
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Auf der <title ref="#m.magicdisk64">Magic disk 64</title> finden  Sie  neben
+<lb n="05"/>Utilities auch nagelneue Spiele, die auf
+<lb n="06"/>den folgenden Seiten erklärt werden:    </p>
+<space dim="vertical" quantity="2"/>
+<ab rend="preformatted" type="toc">
+<lb n="09"/> <ref target="#div0601_deadlyrain">Deadly Rain .................. Seite 2</ref> 
+<lb n="10"/> <ref target="#div0602_runaway">Runaway ...................... Seite 3</ref> 
+<lb n="11"/> <ref target="#div0603_fullhouse">Full House ................... Seite 4</ref> 
+<lb n="12"/> <ref target="#div0604_quadromania">Quadromania .................. Seite 5</ref> 
+<lb n="13"/> <ref target="#div0605_ritter">Ritter ....................... Seite 7</ref> </ab>
+<space dim="vertical" quantity="2"/>
+<p>
+<lb n="16"/>Übrigens: Wenn Sie eigene Spiele  haben,
+<lb n="17"/>die Sie zu Geld machen wollen, lesen Sie
+<lb n="18"/>sich doch einfach  die  Rubrik  <q>'<ref target="#div08_intern">Intern</ref>'</q>
+<lb n="19"/>durch!                                  </p>
+</div>
+<div xml:id="div0601_deadlyrain">
+<pb n="02" xml:id="pb0602"/>
+<head rend="alignCenter">
+<lb n="01"/>              Deadly Rain               
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>ist ein Geschicklichkeitsspiel, bei  dem
+<lb n="05"/>es  darum  geht,  aus  einem   Raum   zu
+<lb n="06"/>entkommen,   von   dessen   Decke    ein
+<lb n="07"/>tödlicher Säureregen fällt. Ihre einzige
+<lb n="08"/>Chance besteht darin, den Haupthebel mit
+<lb n="09"/>Hilfe von Leitern zu erreichen,  die  an
+<lb n="10"/>der rechten Wand lehnen. Geschützt  wer<pc type="br">-</pc>
+<lb break="no" n="11"/>den Sie dabei alleine durch drei  Stein<pc type="br">-</pc>
+<lb break="no" n="12"/>blöcke, die aber  langsam  vom  ätzenden
+<lb n="13"/>Regen abgetragen werden.                </p>
+</div>
+<div xml:id="div0602_runaway">
+<pb n="03" xml:id="pb0603"/>
+<head rend="alignCenter">
+<lb n="01"/>                Runaway                 
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Graue Kerkerwände, Gittertüren und  zwei
+<lb n="05"/>grüne Monster, die auf Sie zueilen – das
+<lb n="06"/>alles erwartet Sie  bei  <q>'<title ref="#g.runaway">Runaway</title>'</q>.  Sie
+<lb n="07"/>werden sehr bald erkennen, daß  es  fast
+<lb n="08"/>auswegslos ist, vor den beiden Menschen<pc type="br">-</pc>
+<lb break="no" n="09"/>fressern zu fliehen!                    </p>
+<p>
+<lb n="10"/>Sollten Sie dennoch entkommen, ist  Ihre
+<lb n="11"/>Flucht aus dem Verlies aber  noch  lange
+<lb n="12"/>nicht zu  Ende.  Es  warten  noch  viele
+<lb n="13"/>weitere Kerker auf Sie!                 </p>
+</div>
+<div xml:id="div0603_fullhouse">
+<pb n="04" xml:id="pb0604"/>
+<head rend="alignCenter">
+<lb n="01"/>              Full House                
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Bei diesem Spielautomaten  der  Spitzen<pc type="br">-</pc>
+<lb break="no" n="05"/>klasse müssen Sie kein Geld ausgeben, um
+<lb n="06"/>Spaß und Spannung  zu  erleben.  Einfach
+<lb n="07"/>einladen und los gehts! Das Spielprinzip
+<lb n="08"/>ist einfach: Sie werfen  eine  Mark  ein
+<lb n="09"/>und können dann bei jedem Spiel zwischen
+<lb n="10"/>zehn Pfennigen und einer Mark einsetzen.
+<lb n="11"/>Sie  müssen  versuchen,  eine  möglichst
+<lb n="12"/>hohe Pokerkombination zu erreichen. Viel
+<lb n="13"/>Glück!                                  </p>
+</div>
+<div xml:id="div0604_quadromania">
+<pb n="05" xml:id="pb0605"/>
+<head rend="alignCenter">
+<lb n="01"/>              Quadromania               
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>ist ein Denk- und Knobelspiel,  bei  dem
+<lb n="05"/>es auf eine gute  Vorstellungskraft  und
+<lb n="06"/>Kombinationsgabe  ankommt.  Das   Spiel<pc type="br">-</pc>
+<lb break="no" n="07"/>prinzip ist  verblüffend  einfach,  doch
+<lb n="08"/>das Spiel selbst ist ziemlich  knifflig!
+<lb n="09"/>Auf einem Spielfeld mit 40 ∗ 22  Feldern
+<lb n="10"/>hat jedes Feld am  Anfang  einen  gelben
+<lb n="11"/>Punkt. Zu Beginn des  Spiels  wählt  der
+<lb n="12"/>Computer rein zufällig eine Anzahl  qua<pc type="br">-</pc>
+<lb break="no" n="13"/>dratischer Felder aus  und  färbt  diese
+<lb n="14"/>dann blau ein. Je  nach  Schwierigkeits<pc type="br">-</pc>
+<lb break="no" n="15"/>grad werden nacheinander zwischen 50 und
+<lb n="16"/>170 Quadrate an beliebiger Stelle inver<pc type="br">-</pc>
+<lb break="no" n="17"/>tiert.                                  </p>
+<pb n="06" xml:id="pb0606"/>
+<p>
+<lb n="03"/>Ihre Aufgabe und  der  Sinn  des  Spiels
+<lb n="04"/>besteht im  genauen  Gegenteil:  Bringen
+<lb n="05"/>Sie das Spielfeld wieder in seinen  Aus<pc type="br">-</pc>
+<lb break="no" n="06"/>gangszustand!  Dazu  müssen   Sie   alle
+<lb n="07"/>blauen  Felder  wieder  gelb  einfärben.
+<lb n="08"/>Hört sich doch  einfach  an,  oder?  Sie
+<lb n="09"/>werden  jedoch  bald  erkennen,  daß  es
+<lb n="10"/>nicht so problemlos ist!                </p>
+</div>
+<div xml:id="div0605_ritter">
+<pb n="07" xml:id="pb0607"/>
+<head rend="alignCenter">
+<lb n="01"/>                Ritter                  
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Die Schergen des bösen  Ritters  Gumbart
+<lb n="05"/>machen   sich   daran,   Ihre    Festung
+<lb n="06"/>Hohenfels zu erstürmen. Nach  tagelanger
+<lb n="07"/>Belagerung geht es jetzt aufs Ganze! Die
+<lb n="08"/>feindlichen Raubritter beginnen nämlich,
+<lb n="09"/> Ihre Burgmauern hinaufzuklettern.  Nach
+<lb n="10"/>altem Brauch wollen Sie nun siedendes Öl
+<lb n="11"/>auf die Angreifer schütten.  Doch  siehe
+<lb n="12"/>da  –  die  Öltanks  sind  leer!   Jetzt
+<lb n="13"/>bleiben Ihnen nur noch  Steine,  um  die
+<lb n="14"/>Gegner abzuwehren!                      </p>
+</div>
+</div>
+<div xml:id="div07_news" xml:space="preserve">
+<div xml:id="div0701_systems87">
+<pb n="01" xml:id="pb0701"/>
+<head rend="alignCenter" xml:id="head0701">
+<lb n="01"/>              SYSTEMS 87                
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Es gab wieder viel zu sehen.  Rund  1300
+<lb n="05"/>Aussteller präsentierten vom 19. bis 23.
+<lb n="06"/>Oktober in München  den  neuesten  Stand
+<lb n="07"/>der Technik.                            </p>
+<p>
+<lb n="08"/>Etwa 150.000  Besucher  aus  51  Staaten
+<lb n="09"/>wurden gezählt, wodurch  die  SYSTEMS 87
+<lb n="10"/>ihren Anspruch als größte internationale
+<lb n="11"/>Fachveranstaltung   für   Computer   und
+<lb n="12"/>Kommunikation bestätigen konnte.        </p>
+<p>
+<lb n="13"/>Leider war der Homecomputer  fast  über<pc type="br">-</pc>
+<lb break="no" n="14"/>haupt nicht mehr auf der  Messe  vertre<pc type="br">-</pc>
+<lb break="no" n="15"/>ten. Dafür konnte sich der interessierte
+<lb n="16"/>C64 User für  den  Amiga  2000  auf  dem
+<lb n="17"/>Commodore Stand oder für Zubehör  begei<pc type="br">-</pc>
+<lb break="no" n="18"/>stern lassen.                           </p>
+<pb n="02" xml:id="pb0702"/>
+<fw sameAs="#head0701"/>
+<p>
+<lb n="03"/>Vor allem auf dem Druckermarkt hat  sich
+<lb n="04"/>einiges  getan.  Fast   jeder   Drucker<pc type="br">-</pc>
+<lb break="no" n="05"/>hersteller konnte mit  mindestens  einem
+<lb n="06"/>24-Nadeldrucker, einem Tintenstrahldruk<pc type="br">-</pc>
+<lb break="no" n="07"/>ker und einem Laserprinter aufwarten.   </p>
+<p>
+<lb n="08"/>So stellte z.B. <orgName ref="#o.epson">EPSON</orgName> seine LQ-Serie (24
+<lb n="09"/>Nadeln, DM 1898 – DM 3698) und die  zwei
+<lb n="10"/>Tintenstrahldrucker IX-800 (DM 2298) und
+<lb n="11"/>SQ-2500 (DM 4498) vor.                  </p>
+<p>
+<lb n="12"/>Grafikbilder gestochen scharf  in  Farbe
+<lb n="13"/>auf dem Drucker auszugeben, ist wohl der
+<lb n="14"/>Traum eines jeden  C64-Besitzers.  Unter
+<lb n="15"/>dem Motto <q>'What  you  see  is  what  you
+<lb n="16"/>get!'</q>  präsentierte   <orgName ref="#o.nec">NEC</orgName>   die   beiden
+<lb n="17"/>24-Nadeldrucker P6 und P7, die  auf  der
+<lb n="18"/>Messe laufend die schönsten Amiga-Bilder
+<lb n="19"/>ausdruckten.                            </p>
+<pb n="03" xml:id="pb0703"/>
+<figure>
+<graphic url="MD8712-NEWS-7.3.koala.png"/>
+<desc resp="TR">Abbildung: Systems 87</desc>
+</figure>
+</div>
+<div xml:id="div0702_news">
+<pb n="04" xml:id="pb0704"/>
+<head rend="alignCenter" type="h2" xml:id="head0704">
+<lb n="01"/>                <hi rend="allcaps spaced">N E W S</hi>                 
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<p>
+<lb n="03"/>Die Nachricht ging durch die Medien  wie
+<lb n="04"/>keine Computergeschichte  vorher:  Sechs
+<lb n="05"/>junge Programmierer hatten es geschafft,
+<lb n="06"/>in die größten und  sichersten  Rechner<pc type="br">-</pc>
+<lb break="no" n="07"/>netze der Welt einzubrechen. Schon  vor<pc type="br">-</pc>
+<lb break="no" n="08"/>her war es Datengangstern  gelungen,  in
+<lb n="09"/>Computeranlagen nach  belieben  mit  den
+<lb n="10"/>Daten zu verfahren, in  Milwaukee  (Wis<pc type="br">-</pc>
+<lb break="no" n="11"/>consin) z.B., wo ein paar Jugendliche in
+<lb n="12"/>Banken  Millionenbeträge   manipulierten
+<lb n="13"/>und  in  Krankenhäusern  Patienten  ver<pc type="br">-</pc>
+<lb break="no" n="14"/>schwinden ließen, oder bei der deutschen
+<lb n="15"/>Post, bei  der  geschickte  Computerpro<pc type="br">-</pc>
+<lb break="no" n="16"/>grammierer herausfanden, daß  man  seine
+<lb n="17"/>Telefonrechnungen ebenso gut von fremden
+<lb n="18"/>Konten abbuchen und somit umsonst  tele<pc type="br">-</pc>
+<lb break="no" n="19"/>fonieren kann.                          </p>
+<pb n="05" xml:id="pb0705"/>
+<fw sameAs="#head0704"/>
+<p>
+<lb n="03"/>Aber es ist neu, daß  nicht  nur  lokale
+<lb n="04"/>Netze von Wirtschaftscomputern den  Ein<pc type="br">-</pc>
+<lb break="no" n="05"/>dringlingen nicht  standhalten  konnten,
+<lb n="06"/>sondern auch die  internationalen  Groß<pc type="br">-</pc>
+<lb break="no" n="07"/>rechner, die militärischen Zwecken  die<pc type="br">-</pc>
+<lb break="no" n="08"/>nen.                                    </p>
+<p>
+<lb n="09"/>Die jungen Leute, die  so  plötzlich  zu
+<lb n="10"/>eher unerwünschtem Ruhm  gelangt  waren,
+<lb n="11"/>sind sogenannte Hacker, die es sich  zum
+<lb n="12"/>Hobby gemacht haben,  in  Computernetzen
+<lb n="13"/>herumzustöbern. Dieses Hobby ist eigent<pc type="br">-</pc>
+<lb break="no" n="14"/>lich nichts anderes, als ein großes Ver<pc type="br">-</pc>
+<lb break="no" n="15"/>steckspiel.  Die  eine  Mannschaft,  das
+<lb n="16"/>sind die Besitzer der gespeicherten  Da<pc type="br">-</pc>
+<lb break="no" n="17"/>ten, falls man da überhaupt  von  Besit<pc type="br">-</pc>
+<lb break="no" n="18"/>zern  sprechen  kann,  verstecken  Daten
+<lb n="19"/>hinter Kennworten und  personenbezogenen
+<pb n="06" xml:id="pb0706"/>
+<fw sameAs="#head0704"/>
+<lb n="03"/>Codes, die nur der Benutzer  kennt.  Die
+<lb n="04"/>andere Mannschaft sind die  Hacker,  die
+<lb n="05"/>versuchen, diese angeblich sicheren  Da<pc type="br">-</pc>
+<lb break="no" n="06"/>tenverstecke zu finden und die Codes  zu
+<lb n="07"/>knacken.                                </p>
+<p>
+<lb n="08"/>Was sie tun, ist also  nicht  kriminell,
+<lb n="09"/>denn wer kann mir schon verbieten, einen
+<lb n="10"/>Anruf zu machen und meinen Computer  ein
+<lb n="11"/>bißchen mit anderen Computern  reden  zu
+<lb n="12"/>lassen?! Wenn der andere Computer meinem
+<lb n="13"/>dann Sachen erzählt, die ich  gar  nicht
+<lb n="14"/>erfahren sollte, dann ist das  ein  Feh<pc type="br">-</pc>
+<lb break="no" n="15"/>ler, den sich die Programmierer des  an<pc type="br">-</pc>
+<lb break="no" n="16"/>deren Computers zuzuschreiben haben.    </p>
+<p>
+<lb n="17"/>Und nichts anderes  passierte  vor  mehr
+<lb n="18"/>als einem halben Jahr:  Sechs  Computer<pc type="br">-</pc>
+<lb break="no" n="19"/>freaks begannen damit,  sich  durch  ein
+<pb n="07" xml:id="pb0707"/>
+<fw sameAs="#head0704"/>
+<lb n="03"/>paar solcher Anrufe  im  Rechnernetzwerk
+<lb n="04"/>von   wissenschaftlichen   Großcomputern
+<lb n="05"/>häuslich niederzulassen. Wenn sie einmal
+<lb n="06"/>keinen Code mehr wußten, so hinterließen
+<lb n="07"/>sie ein sogenanntes trojanisches  Pferd,
+<lb n="08"/>ein Programm, das nichts anderes  macht,
+<lb n="09"/>als sich alle Codes zu merken,  die  von
+<lb n="10"/>anderen Benutzern eingegeben werden, das
+<lb n="11"/>sonst aber  unbemerkt  im  Speicher  der
+<lb n="12"/>Rechner sein Dasein fristet. Für  immer?
+<lb n="13"/>Nein, nur bis sein <q>'Besitzer'</q> es zurück<pc type="br">-</pc>
+<lb break="no" n="14"/>ruft, dem es dann bereitwillig  Auskunft
+<lb n="15"/>gibt.                                   </p>
+<p>
+<lb n="16"/>Mit diesen und  anderen  Tricks  drangen
+<lb n="17"/>die Hacker  also  immer  weiter  in  die
+<lb n="18"/>Computersysteme ein und lernten sage und
+<lb n="19"/>schreibe um die 130 verschiedene Systeme
+<pb n="08" xml:id="pb0708"/>
+<fw sameAs="#head0704"/>
+<lb n="03"/>kennen. So sahen sie sich  bei  diversen
+<lb n="04"/>Max-Planck-Instituten, der <orgName ref="#o.dfvlr">DFVLR</orgName>  (Deut<pc type="br">-</pc>
+<lb break="no" n="05"/>sche Forschungs- und Versuchsanstalt für
+<lb n="06"/>Luft- und Raumfahrt), der <orgName ref="#o.span">Space  Physics
+<lb n="07"/>Analysis Network</orgName> und sogar der <orgName ref="#o.nasa">NASA</orgName>  um.
+<lb n="08"/>Auch bei  verschiedenen  Kernforschungs<pc type="br">-</pc>
+<lb break="no" n="09"/>zentren bei uns und jenseits des  Atlan<pc type="br">-</pc>
+<lb break="no" n="10"/>tiks  waren  unsere  Hacker  unsichtbare
+<lb n="11"/>Gäste.  Unsichtbar?  Nun  ja,   zunächst
+<lb n="12"/>schon. Solange nämlich, bis ein  System<pc type="br">-</pc>
+<lb break="no" n="13"/>manager des  <orgName ref="#o.embl">Europäischen  Laboratoriums
+<lb n="14"/>für Molekularbiologie</orgName>  auf  ihre  Spuren
+<lb n="15"/>stieß.                                  </p>
+<p>
+<lb n="16"/>Seitdem zittern die Sechs um ihr  freies
+<lb n="17"/>Leben, denn sie  müssen  nun  unter  Um<pc type="br">-</pc>
+<lb break="no" n="18"/>ständen mit strafrechtlicher  Verfolgung
+<lb n="19"/>rechnen. Warum, fragt sich jeder  Compu<pc type="br">-</pc>
+<pb n="09" xml:id="pb0709"/>
+<fw sameAs="#head0704"/>
+<lb break="no" n="03"/>terbesitzer,  denn  diese  Datencomputer
+<lb n="04"/>laden doch gerade dazu ein, neugierig zu
+<lb n="05"/>sein.                                   </p>
+<p>
+<lb n="06"/>Die in Not geratenen  wandten  sich  da<pc type="br">-</pc>
+<lb break="no" n="07"/>raufhin an die größte  Hackervereinigung
+<lb n="08"/>Deutschlands, den  <orgName ref="#o.ccc">Chaos  Computer  Club</orgName>
+<lb n="09"/>aus Hamburg, bei dem die Polizei dann in
+<lb n="10"/>blinder  Hilflosigkeit  eine  Großrazzia
+<lb n="11"/>veranlaßte. Seitdem ist es still  gewor<pc type="br">-</pc>
+<lb break="no" n="12"/>den in Hamburg. Die  Verkäufer  der  un<pc type="br">-</pc>
+<lb break="no" n="13"/>sicher gewordenen Systeme pochen darauf,
+<lb n="14"/>daß man ihr Sicherheitssystem nicht voll
+<lb n="15"/>angewandt hätte und somit die Schuld bei
+<lb n="16"/>den Benutzern läge. Diese wiederum  wür<pc type="br">-</pc>
+<lb break="no" n="17"/>den am liebsten alle Hacker hinter  Git<pc type="br">-</pc>
+<lb break="no" n="18"/>tern sehen. So wird die Schuld geschickt
+<lb n="19"/>von oben immer weiter nach unten gescho<pc type="br">-</pc>
+<pb n="10" xml:id="pb0710"/>
+<fw sameAs="#head0704"/>
+<lb break="no" n="03"/>ben.                                    </p>
+<p>
+<lb n="04"/>Uns bleibt nichts als die Hoffnung,  daß
+<lb n="05"/>sie nicht an den  Hackern  hängenbleibt.
+<lb n="06"/>Denn die  scheinen  in  der  ganzen  Ge<pc type="br">-</pc>
+<lb break="no" n="07"/>schichte die einzigen zu sein, die durch
+<lb n="08"/>Konsequenz, Fleiß und ohne böse  Hinter<pc type="br">-</pc>
+<lb break="no" n="09"/>gedanken angenehm aufgefallen sind.     </p>
+</div>
+</div>
+<div xml:id="div08_intern" xml:space="preserve">
+<div xml:id="div0800_intern">
+<pb n="01" xml:id="pb0801"/>
+<head rend="alignCenter" type="h2">
+<lb n="01"/>              <hi rend="allcaps spaced">I N T E R N</hi>               
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<p>
+<lb n="03"/>Die Rubrik  <q>'Intern'</q>  ist  ein  lustiges
+<lb n="04"/>Gemisch aus Informationen, Hinweisen und
+<lb n="05"/>der Chance, etwas zu gewinnen:          </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="07"/>        In diesem Monat geht es um:     </p>
+<space dim="vertical" quantity="1"/>
+<ab rend="preformatted" type="toc">
+<lb n="09"/>      ┌─────────────────────────────┐   
+<lb n="10"/>      │ <ref target="#div0801_magicclub">Magic Club .............. 2</ref> │   
+<lb n="11"/>      │                             │   
+<lb n="12"/>      │ <ref target="#div0802_programmeinsendungen">Programmeinsendungen .... 5</ref> │   
+<lb n="13"/>      │                             │   
+<lb n="14"/>      │ <ref target="#div0803_gewinnspiele">Gewinnspiel ............. 8</ref> │   
+<lb n="15"/>      │                             │   
+<lb n="16"/>      │ <ref target="#div0804_hotline">Hotline ................. 9</ref> │   
+<lb n="17"/>      └─────────────────────────────┘   </ab>
+</div>
+<div xml:id="div0801_magicclub">
+<pb n="02" xml:id="pb0802"/>
+<head rend="alignCenter" xml:id="head0802">
+<lb n="01"/>              Magic Club                
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>'Waaas? Die Mitgliedschaft im Magic Club
+<lb n="05"/>kostet nur DM 88.20 ?                   </p>
+<p>
+<lb n="06"/>Das sind ja nicht  einmal  7.40  DM  pro
+<lb n="07"/>Monat!!'                                </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="09"/>Ja, und das ist noch  nicht  alles!  Als
+<lb n="10"/>Mitglied im <hi rend="inverted">Magic Club</hi> erhalten Sie  für
+<lb n="11"/>lediglich DM 88.20 (= 25% Rabatt!) nicht
+<lb n="12"/>nur 12 Monate lang die <title ref="#m.magicdisk64">Magic disk 64</title> ins
+<lb n="13"/>Haus  geschickt,  sondern  Sie  bekommen
+<lb n="14"/>natürlich auch das begehrte  Scheckheft.
+<lb n="15"/>Ihre Mitgliedschaft macht sich sehr bald
+<lb n="16"/>bezahlt! Denn mit Ihrem Scheckheft  kön<pc type="br">-</pc>
+<lb break="no" n="17"/>nen Sie im Verlauf Ihrer  Mitgliedschaft
+<lb n="18"/>viele Produkte zu besonderen Konditionen
+<lb n="19"/>bestellen!! Dazu schicken Sie  uns  ein<pc type="br">-</pc>
+<pb n="03" xml:id="pb0803"/>
+<fw sameAs="#head0802"/>
+<lb break="no" n="03"/>fach einen Ihrer 10 Schecks – und zahlen
+<lb n="04"/>automatisch den Magic Club- Preis!!     </p>
+<p>
+<lb n="05"/>Außerdem sind mit  Ihrer  Mitgliedschaft
+<lb n="06"/>noch besondere Serviceleistungen verbun<pc type="br">-</pc>
+<lb break="no" n="07"/>den. Sie gehen  absolut  <hi rend="underlined">keine</hi>  weiteren
+<lb n="08"/>Verpflichtungen ein!     <span ana="#u">‾‾‾‾‾</span>          </p>
+<p>
+<lb n="09"/>Also nichts wie los! Schicken  Sie  noch
+<lb n="10"/>heute den  beiliegenden  Mitgliedsantrag
+<lb n="11"/>ab! Natürlich bleibt es Ihnen offen, die
+<lb n="12"/>Mitgliedschaft jederzeit zu kündigen.   
+<lb n="13"/>Ein weiterer Grund für  uns,  Sie  jeden
+<lb n="14"/>Monat  mit  News,  Unterhaltung,  tollen
+<lb n="15"/>Spielen, super Utilities und vielem mehr
+<lb n="16"/>zu überschwemmen!                       </p>
+<p>
+<lb n="17"/>Übrigens: Für alle Mitglieder wurde eine
+<lb n="18"/>extra Hotline-Zeit freigehalten.        </p>
+<pb n="04" xml:id="pb0804"/>
+<fw sameAs="#head0802"/>
+<p>
+<lb n="03"/>Als Mitglied im Magic  Club  können  Sie
+<lb n="04"/>uns nämlich auch am Montag  von  16h–18h
+<lb n="05"/>telefonisch erreichen!!!                </p>
+<p>
+<lb n="06"/>Falls  der  beigelegte   Mitgliedsantrag
+<lb n="07"/>verlorengegangen sein  sollte,  schicken
+<lb n="08"/>Sie einfach eine Postkarte an den:      </p>
+<space dim="vertical" quantity="1"/>
+<ab rend="preformatted">
+<lb n="10"/>        ╔═════════════════════╗         
+<lb n="11"/>        ║                     ║         
+<lb n="12"/>        ║ <hi rend="underlined">CP Verlag GmbH</hi>      ║         
+<lb n="13"/>        ║ <span ana="#u">‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span>      ║         
+<lb n="14"/>        ║ Gufidaunerstraße 13 ║         
+<lb n="15"/>        ║                     ║         
+<lb n="16"/>        ║ <hi rend="underlined">8501</hi> Schwarzenbruck ║         
+<lb n="17"/>        ║ <span ana="#u">‾‾‾‾</span>                ║         
+<lb n="18"/>        ╚═════════════════════╝         </ab>
+</div>
+<div xml:id="div0802_programmeinsendungen">
+<pb n="05" xml:id="pb0805"/>
+<head rend="alignCenter" xml:id="head0805">
+<lb n="01"/>         Programmeinsendungen           
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<p>
+<lb n="03"/>Sie haben  selbstgeschriebene  Utilities
+<lb n="04"/>oder Spiele, die Sie uns gerne zum  Kauf
+<lb n="05"/>anbieten würden?                        </p>
+<p>
+<lb n="06"/>Dann nichts wie die Programmdiskette  in
+<lb n="07"/>einen  Umschlag  gesteckt  und  an   uns
+<lb n="08"/>geschickt!                              </p>
+<p>
+<lb n="09"/>Denn bei Veröffentlichung honorieren wir
+<lb n="10"/>Ihre Programme mit DM 500.–!!           </p>
+<p>
+<lb n="11"/>Sie können sich sogar bis zu  DM  1000.–
+<lb n="12"/>verdienen, wenn  wir  Ihrem  Spiel  oder
+<lb n="13"/>Utility fünf Sterne (∗∗∗∗∗) zuerkennen!!</p>
+<ab rend="preformatted">
+<lb n="14"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></ab>
+<p>
+<lb n="15"/>Bei Einsendungen gibt  es  folgendes  zu
+<lb n="16"/>beachten:                               </p>
+<space dim="vertical" quantity="1"/>
+<p rend="hanging2rem alignLeft">
+<lb n="18"/><hi rend="underlined">01.</hi> Das Programm sollte auf jeden Fall  
+<lb n="19"/><span ana="#u">‾‾‾</span> ohne Erweiterungen lauffähig sein.  </p>
+<pb n="06" xml:id="pb0806"/>
+<fw sameAs="#head0805"/>
+<p rend="hanging2rem alignLeft">
+<lb n="03"/><hi rend="underlined">02.</hi> Alle Einsendungen müssen mit einer  
+<lb n="04"/><span ana="#u">‾‾‾</span> Bedienungsanleitung versehen sein.  </p>
+<space dim="vertical" quantity="1"/>
+<p rend="hanging2rem alignLeft">
+<lb n="06"/><hi rend="underlined">03.</hi> Bastelanleitungen sollten  mit dem  
+<lb n="07"/><span ana="#u">‾‾‾</span> fertigen   Endprodukt   eingesandt  
+<lb n="08"/>    werden.                             </p>
+<space dim="vertical" quantity="1"/>
+<ab rend="preformatted">
+<lb n="10"/><span ana="#hr">________________________________________</span></ab>
+<p>
+<lb n="11"/>Für  eventuelle   Rückfragen   wäre   es
+<lb n="12"/>vorteilhaft, wenn Sie Ihre Telefonnummer
+<lb n="13"/>angeben!                                </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="15"/>Ansonsten sind  wir  natürlich  auch  an
+<lb n="16"/>Programmen für  den  <name ref="#c.c128">C128</name>  interessiert.</p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="18"/>Bastelanleitungen oder aktuelle Beiträge
+<lb n="19"/>werden ähnlich wie  Programme  vergütet.</p>
+<space dim="vertical" quantity="1"/>
+<pb n="07" xml:id="pb0807"/>
+<fw sameAs="#head0805"/>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Bevor Sie uns ein  Programm  zuschicken,
+<lb n="05"/>sollten Sie es noch einmal auf <q>'Herz und
+<lb n="06"/>Nieren'</q> prüfen. Senden  Sie  bitte  alle
+<lb n="07"/>Programme und Bastelanleitungen  an den:</p>
+<space dim="vertical" quantity="2"/>
+<ab rend="preformatted">
+<lb n="09"/>         ┌─────────────────────┐        
+<lb n="10"/>         │ CP Verlag GmbH      │█       
+<lb n="11"/>         │                     │█       
+<lb n="12"/>         │ Gufidaunerstraße 13 │█       
+<lb n="13"/>         │                     │█       
+<lb n="14"/>         │ 8501 Schwarzenbruck │█       
+<lb n="15"/>         └─────────────────────┘█       
+<lb n="16"/>          ███████████████████████       
+</ab>
+</div>
+<div xml:id="div0803_gewinnspiele">
+<pb n="08" xml:id="pb0808"/>
+<head rend="alignCenter">
+<lb n="01"/>             Gewinnspiele               
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>An dieser Stelle  gibt  es  jeden  Monat
+<lb n="05"/>super Preise zu gewinnen.               </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="07"/>Dieses Mal können Sie zu den glücklichen
+<lb n="08"/>Gewinnern  von  zehn   Dauerfeuermodulen
+<lb n="09"/>gehören (beschrieben in <q>'<ref target="#div0401_dauerfeuermodul">Bastelware</ref>'</q>).  </p>
+<p>
+<lb n="10"/>Dazu müssen Sie uns nur Ihre besten Tips
+<lb n="11"/>&amp; Tricks schicken. Natürlich  sind  auch
+<lb n="12"/>kurze  Programme  zulässig,   die   gute
+<lb n="13"/>Grafik- oder Soundeffekte erzeugen.     </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="15"/>Die  zehn  besten  Einsendungen   werden
+<lb n="16"/>ausgewählt. Unsere  Adresse  finden  Sie
+<lb n="17"/>unter <q>'<ref target="#div0801_magicclub">Magic Club</ref>'</q>.                     </p>
+</div>
+<div xml:id="div0804_hotline">
+<pb n="09" xml:id="pb0809"/>
+<head rend="alignCenter">
+<lb n="01"/>                Hotline                 
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Wenn  Ihnen <hi rend="inverted">wichtige</hi>  Fragen  unter  den
+<lb n="05"/>Nägeln brennen, haben Sie jede Woche  am</p>
+<space dim="vertical" quantity="1"/>
+<ab rend="preformatted">
+<lb n="07"/>    ┌──────────────────────────────┐    
+<lb n="08"/>    │ Donnerstag  von  16 h – 20 h │█   
+<lb n="09"/>    └──────────────────────────────┘█   
+<lb n="10"/>     ████████████████████████████████   </ab>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="12"/>die  Gelegenheit  mit  uns   direkt   zu
+<lb n="13"/>sprechen.Wählen Sie dazu unsere         </p>
+<space dim="vertical" quantity="1"/>
+<ab rend="preformatted">
+<lb n="15"/>            Hotline-Nummer:             
+<lb n="16"/>            <span rend="inverted">               </span>             
+<lb n="17"/>            <span rend="inverted"> 09128 / 13715 </span>             
+<lb n="18"/>            <span rend="inverted">               </span>             </ab>
+</div>
+</div>
+<div xml:id="div09_tipsundtricks" xml:space="preserve">
+<div xml:id="div0900_tipsundtricks">
+<pb n="01" xml:id="pb0901"/>
+<head rend="alignCenter" type="h2" xml:id="head0901">
+<lb n="01"/>             Tips &amp; Tricks              
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<p>
+<lb n="03"/>Trotz der großen Zahl an Programmen, die
+<lb n="04"/>derzeit  für  den  <name ref="#c.c64">C64</name>  auf  dem   Markt
+<lb n="05"/>erhältlich sind, nimmt die Schar  derer,
+<lb n="06"/>die sich  für  spezielle  Probleme  ihre
+<lb n="07"/>eigenen Programme schreiben, täglich zu.
+<lb n="08"/>Das ist gut so, denn schließlich soll es
+<lb n="09"/>ja auch in  ein  paar  Jahrzehnten  noch
+<lb n="10"/>Menschen geben,  die  programmieren  und
+<lb n="11"/>nicht nur vorgekaute Programme verarbei<pc type="br">-</pc>
+<lb break="no" n="12"/>ten können.                             </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="14"/>Die Programmierarbeit wird oftmals durch
+<lb n="15"/>kleine Tricks, die  nicht  unbedingt  in
+<lb n="16"/>jedem Handbuch zu finden sind  erheblich
+<lb n="17"/>erleichtert.                            </p>
+<pb n="02" xml:id="pb0902"/>
+<fw sameAs="#head0901"/>
+<p>
+<lb n="03"/>Solche Programmierkniffe wird Ihnen  das
+<lb n="04"/>Magic team in jeder  Ausgabe  an  dieser
+<lb n="05"/>Stelle präsentieren.  Zusammen  mit  den
+<lb n="06"/>kleinen Hilfsprogrammen, die Sie auf je<pc type="br">-</pc>
+<lb break="no" n="07"/>der Magic disk unter der Rubrik  <q>"<ref target="#div05_utilities">UTILI<pc type="br">-</pc>
+<lb break="no" n="08"/>TIES</ref>"</q> finden, können Sie sich so mit der
+<lb n="09"/>Zeit eine Bibliothek  an  Utilities  und
+<lb n="10"/>Tricks erstellen,  durch  die  das  pro<pc type="br">-</pc>
+<lb break="no" n="11"/>grammieren auf Ihrem C64 noch mehr Freu<pc type="br">-</pc>
+<lb break="no" n="12"/>de macht.                               </p>
+<p>
+<lb n="13"/>In dieser ersten Folge beschäftigen  wir
+<lb n="14"/>uns mit  dem  <ref target="#div0901_programmschutz">Programmschutz</ref>  und  einer
+<lb n="15"/><ref target="#div0902_strichcursor">Deluxe-Cursordarstellung</ref>, wie sie  sonst
+<lb n="16"/>nur bei den PC's zu finden ist.         </p>
+</div>
+<div xml:id="div0901_programmschutz">
+<pb n="03" xml:id="pb0903"/>
+<fw sameAs="#head0901"/>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Sicher kennen Sie das folgende Problem: 
+<lb n="05"/>Sie haben ein Programm geschrieben,  bei
+<lb n="06"/>dem  es  Ihnen  nicht  von  Vorteil  er<pc type="br">-</pc>
+<lb break="no" n="07"/>scheint, daß andere Personen  es  abbre<pc type="br">-</pc>
+<lb break="no" n="08"/>chen, listen, verändern (z.B. durch eine
+<lb n="09"/>falsche Urhebererklärung) etc.          </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="11"/>Ein  laufendes  Basicprogramm  kann  man
+<lb n="12"/>normalerweise durch die Taste "<code>RUN/STOP</code>"
+<lb n="13"/>unterbrechen.  Diese  Möglichkeit   kann
+<lb n="14"/>jeodch durch folgenden Befehl  unterbun<pc type="br">-</pc>
+<lb break="no" n="15"/>den werden:                             </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="17"/><code>POKE 788,52</code>                             </p>
+<pb n="04" xml:id="pb0904"/>
+<fw sameAs="#head0901"/>
+<p>
+<lb n="03"/>Er bewirkt, daß das  Betriebssystem  die
+<lb n="04"/>Routine,  die  die  Stoptaste   abfragt,
+<lb n="05"/>nicht mehr anspringt. Probieren  Sie  es
+<lb n="06"/>aus:                                    
+</p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="08"/><code>FOR I = 1 TO 100 : PRINT I : NEXT I</code>     </p>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="10"/>Diese Zeile, im Direktmodus  eingegeben,
+<lb n="11"/>druckt die Zahlen 1 bis 100 aus.  Versu<pc type="br">-</pc>
+<lb break="no" n="12"/>chen Sie nun, die durchlaufende  Zahlen<pc type="br">-</pc>
+<lb break="no" n="13"/>reihe mit der <code>STOP</code>-Taste anzuhalten,  so
+<lb n="14"/>werden sie feststellen,  daß  ein  Druck
+<lb n="15"/>auf dieselbe nicht mehr fruchtet.  Geben
+<lb n="16"/>sie diese Zeile  als  Programm  ein  und
+<lb n="17"/>starten es mit <code>RUN</code>, so kann auch  dieses
+<lb n="18"/>nicht mehr unterbrochen werden.         </p>
+<pb n="05" xml:id="pb0905"/>
+<fw sameAs="#head0901"/>
+<p>
+<lb n="03"/>Eine Unterbrechung erreicht  man  jedoch
+<lb n="04"/>immer noch durch  die  Tastenkombination
+<lb n="05"/><code>RUN/STOP + RESTORE</code>. Um auch  diese  Mög<pc type="br">-</pc>
+<lb break="no" n="06"/>lichkeit außer Kraft  zu  setzen,  geben
+<lb n="07"/>sie nur:                                
+<space dim="vertical" quantity="1"/>
+<lb n="09"/><code>POKE 808,225</code>                            
+<space dim="vertical" quantity="1"/>
+<lb n="11"/>ein. Probieren Sie wieder die Wirkung am
+<lb n="12"/>Beispiel der <code>FOR ... NEXT</code> Schleife.     </p>
+<space dim="vertical" quantity="2"/>
+<p>
+<lb n="15"/>Ein noch raffinierterer Trick besteht im
+<lb n="16"/>Ausschalten des <code>LIST</code>-Befehls. Geben  Sie
+<lb n="17"/>einmal folgenden Befehl ein:            
+<space dim="vertical" quantity="1"/>
+<lb n="19"/><code>POKE 775,199</code>                            </p>
+<pb n="06" xml:id="pb0906"/>
+<fw sameAs="#head0901"/>
+<p>
+<lb n="03"/>Jetzt versuchen Sie bitte, sich  ein  im
+<lb n="04"/>Speicher vorhandenes Basicprogramm durch
+<lb n="05"/><code>LIST</code> anzusehen ... überrascht?          </p>
+<p>
+<lb n="06"/>Durch <code>RUN</code> läßt sich Ihr Programm  natür<pc type="br">-</pc>
+<lb break="no" n="07"/>lich noch ganz normal starten,  als  sei
+<lb n="08"/>nichts passiert.                        </p>
+<space dim="vertical" quantity="2"/>
+</div>
+<div xml:id="div0902_strichcursor">
+<p>
+<lb n="11"/>Nun zur versprochenen  Cursordarstellung
+<lb n="12"/>a la PC. Wenn Sie das Inhaltsverzeichnis
+<lb n="13"/>der Magic disk 64 anschauen,  so  finden
+<lb n="14"/>Sie dort das Programm <q>"<title ref="#u.strichcursor">STRICHCURSOR</title>"</q>.   </p>
+<p>
+<lb n="15"/>Das kurze  Basicprogramm  verändert  den
+<lb n="16"/>Zeichensatz Ihres <name ref="#c.c64">C64</name>.  Reverse  Zeichen
+<lb n="17"/>werden nach dem Durchlaufen dieses  Pro<pc type="br">-</pc>
+<lb break="no" n="18"/>gramms nicht mehr als  reverse  Zeichen,
+<lb n="19"/>sondern als normale  Zeichen  mit  einem
+<pb n="07" xml:id="pb0907"/>
+<fw sameAs="#head0901"/>
+<lb n="03"/>Unterstrich  dargestellt.  Da  normaler<pc type="br">-</pc>
+<lb break="no" n="04"/>weise  das  Zeichen  an  der   Cursorpo<pc type="br">-</pc>
+<lb break="no" n="05"/>sition  ständig  invertiert  wird,   er<pc type="br">-</pc>
+<lb break="no" n="06"/>scheint stattdessen nun  ein  blinkender
+<lb n="07"/>Unterstrich.                            </p>
+<p>
+<lb n="09"/>Das Programm kopiert den Zeichensatz aus
+<lb n="10"/>dem Festspeicher (ROM)  Ihres  Computers
+<lb n="11"/>in den Schreib-Lesespeicher (RAM).  Dies
+<lb n="12"/>erkennen  Sie  am  Aufbau  des  Zeichen<pc type="br">-</pc>
+<lb break="no" n="13"/>satzes, welcher zum Zweck  der  besseren
+<lb n="14"/>Erkennbarkeit  dieses  Vorgangs  ab  der
+<lb n="15"/>linken oberen Ecke des Bildschirms  kom<pc type="br">-</pc>
+<lb break="no" n="16"/>plett dargestellt wird. Man kann so  gut
+<lb n="17"/>beobachten, wie  die  Zeichen  aufgebaut
+<lb n="18"/>werden. Das ganze geschieht zweimal,  da
+<lb n="19"/>es ja im <name ref="#c.c64">C64</name> zwei Zeichensätze gibt: Den
+<pb n="08" xml:id="pb0908"/>
+<fw sameAs="#head0901"/>
+<lb n="03"/>für die Blockgrafikzeichen und  den  für
+<lb n="04"/>die Kleinschrift.                       </p>
+<p>
+<lb n="05"/>Am Schluß werden die Zeichen, die norma<pc type="br">-</pc>
+<lb break="no" n="06"/>lerweise  revers   dargestellt   werden,
+<lb n="07"/>unterstrichen. Das Programm läuft ca.  2
+<lb n="08"/>Minuten, bis alle Zeichen kopiert  sind.
+<lb n="09"/>Danach ist der Anfang  des  durch  Basic
+<lb n="10"/>programmierbaren  Speichers  auf   12288
+<lb n="11"/>erhöht,  damit  der  Zeichensatz   nicht
+<lb n="12"/>durch ein Programm überschrieben  werden
+<lb n="13"/>kann, und der Speicher ist gelöscht. Für
+<lb n="14"/>eigene Programme stehen Ihnen  nun  noch
+<lb n="15"/>ca. 28 kByte  Speicherplatz  zur  Verfü<pc type="br">-</pc>
+<lb break="no" n="16"/>gung, was wohl  in  den  meisten  Fällen
+<lb n="17"/>ausreichen dürfte.                      </p>
+</div>
+</div>
+<div xml:id="div10_theend" xml:space="preserve">
+<div xml:id="div1000_theend">
+<pb n="01" xml:id="pb1001"/>
+<head rend="alignCenter" type="h2">
+<lb n="01"/>             <hi rend="allcaps spaced">T H E   E N D</hi>              
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<space dim="vertical" quantity="1"/>
+<p>
+<lb n="04"/>Tja, das war sie, die erste Ausgabe  der
+<lb n="05"/><title ref="#m.magicdisk64">Magic disk 64</title>. Wir hoffen, daß sie Ihnen
+<lb n="06"/>gefallen hat. Natürlich können wir diese
+<lb n="07"/>Ausgabe  nicht  inhaltlich  abschließen,
+<lb n="08"/>ohne einen Ausblick auf die nächste Disk
+<lb n="09"/>zu geben. Deshalb  finden  Sie  auf  der
+<lb n="10"/>folgenden Seite die <q>'<ref target="#div1001_vorschau">Vorschau</ref>'</q> und  dann
+<lb n="11"/>erst abschließend das <q>'<ref target="#div1002_impressum">Impressum</ref>'</q>.      </p>
+<space dim="vertical" quantity="3"/>
+<p>
+<lb n="15"/>Wählen Sie auch beim  nächsten  Mal  die
+<lb n="16"/><title ref="#m.magicdisk64">MAGIC DISK 64</title>,  wenn  es  wieder  heißt:
+<lb n="17"/> <q>"<term target="#note1001_magazin">Welches Magazin hätten's denn gern'?</term>"</q> </p>
+<note resp="TR" xml:id="note1001_magazin">
+	Anspielung auf einen Spruch aus dem zeitgenössischen Fernsehquiz „Was bin ich?“ von Robert Lembke.
+	Vgl. <ref target="https://www.deutschlandfunk.de/welches-schweinderl-haetten-sie-denn-gern.871.de.html?dram:article_id=261788">Deutschlandfunk: „Welches Schweinderl hätten Sie denn gern?“</ref></note>
+</div>
+<div xml:id="div1001_vorschau">
+<pb n="02" xml:id="pb1002"/>
+<head rend="alignCenter">
+<lb n="01"/>            <hi rend="allcaps spaced">V O R S C H A U</hi>             
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<p>
+<lb n="03"/>Auch mit der nächsten Ausgabe der  <title ref="#m.magicdisk64">Magic
+<lb n="04"/>disk 64</title>  werden  Sie  sicherlich  wieder
+<lb n="05"/>Ihre Freude haben. Denn  natürlich  gibt
+<lb n="06"/>es auch beim nächsten  Mal  wieder  jede
+<lb n="07"/>Menge Spiele, Utilities, Tips &amp;  Tricks,
+<lb n="08"/>News...  Die  Disk  wird   also   wieder
+<lb n="09"/>randvoll sein mit tollen Programmen  und
+<lb n="10"/>vielen Texten.                          </p>
+<p>
+<lb n="11"/>Übrigens:  Die  nächste  Ausgabe   kommt
+<lb n="12"/>bestimmt. Und wenn Sie ganz sicher gehen
+<lb n="13"/>wollen, eine  Ausgabe  zu  bekommen,  so
+<lb n="14"/>werden   Sie   doch   einfach   Mitglied
+<lb n="15"/>im <hi rend="inverted">Magic Club</hi> (siehe <ref target="#div0801_magicclub">Intern</ref>).           </p>
+</div>
+<div xml:id="div1002_impressum">
+<pb n="03" xml:id="pb1003"/>
+<head rend="alignCenter" xml:id="head1003">
+<lb n="01"/>          Impressum (gekürzt)           
+<lb n="02"/><span ana="#hr">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span></head>
+<ab rend="preformatted">
+<lb n="03"/><hi rend="underlined">Herausgeber:</hi>  CP Verlag                 
+<lb n="04"/><span ana="#u">‾‾‾‾‾‾‾‾‾‾‾‾</span>  Innere Cramer-Klett-Str.6 
+<lb n="05"/>              8500 Nürnberg             </ab>
+<space dim="vertical" quantity="1"/>
+<ab rend="preformatted">
+<lb n="07"/>            <hi rend="underlined">Das Magic team</hi>              
+<lb n="08"/>            <span ana="#u">‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span>              
+<lb n="09"/>      Chefredakteur: <persName ref="#p.geltenpoth">C.Geltenpoth</persName>       
+<lb n="10"/>      Hardware     : <persName ref="#p.zwanziger">R.Zwanziger</persName>        
+<lb n="11"/>      Software     : <persName ref="#p.wiederhold">A.Wiederhold</persName>       </ab>
+<space dim="vertical" quantity="1"/>
+<ab rend="preformatted">
+<lb n="13"/><hi rend="underlined">Anzeigenpreisliste:</hi> Bitte Media-Unter<pc type="br">-</pc>  
+<lb break="no" n="14"/><span ana="#u">‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾‾</span> lagen anfordern.    </ab>
+<space dim="vertical" quantity="1"/>
+<ab rend="preformatted">
+<lb n="16"/><hi rend="underlined">Bezugspreise:</hi>    – Einzelheft DM  9.80  
+<lb n="17"/><span ana="#u">‾‾‾‾‾‾‾‾‾‾‾‾‾</span>    – Mitglieds. DM 88.20  
+<lb n="18"/>                   (12 Ausgaben/ Jahr)  </ab>
+</div>
+<div xml:id="div1003_urheberrecht">
+<pb n="04" xml:id="pb1004"/>
+<fw sameAs="#head1003"/>
+<p rend="alignCenter">
+<space dim="vertical" quantity="1"/>
+<lb n="04"/>             <hi rend="underlined">Urheberrecht:</hi>              
+<lb n="05"/>             <span ana="#u">‾‾‾‾‾‾‾‾‾‾‾‾‾</span>              </p>
+<p>
+<lb n="06"/>Alle in  MAGIC DISK 64  veröffentlichten
+<lb n="07"/>Beiträge   sind   urheberrechtlich   ge<pc type="br">-</pc>
+<lb break="no" n="08"/>schützt.                                </p>
+<p>
+<lb n="09"/>Alle Rechte, auch Übersetzungen,  vorbe<pc type="br">-</pc>
+<lb break="no" n="10"/>halten. Reproduktionen jeder Art  (Foto<pc type="br">-</pc>
+<lb break="no" n="11"/>kopien, Microfilm, Backups usw.)  bedür<pc type="br">-</pc>
+<lb break="no" n="12"/>fen der  schriftlichen  Genehmigung  des
+<lb n="13"/>Verlages.                               </p>
+<p>
+<lb n="14"/>Für unverlangt eingesandte  Manuskripte,
+<lb n="15"/>Disketten  oder  Hardwarebauteile   kann
+<lb n="16"/>keine Garantie übernommen werden.       </p>
+</div>
+</div>
+</body>
+<back>
+<div>
+<p>
+Digitale Edition zu Demonstrationszwecken auf der DHd 2020
+	– erstellt von Torsten Roeder
+	– zuletzt geändert am 26.02.2020</p>
+</div>
+</back>
+</text>
+</TEI>
